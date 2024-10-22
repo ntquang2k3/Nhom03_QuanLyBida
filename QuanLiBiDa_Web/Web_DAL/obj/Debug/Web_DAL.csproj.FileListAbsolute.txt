@@ -1,0 +1,16 @@
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DTO.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DTO.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.csprojResolveAssemblyReference.cache
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DAL.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DTO.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\bin\Debug\Web_DTO.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.csprojResolveAssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\Web_DAL\obj\Debug\Web_DAL.pdb

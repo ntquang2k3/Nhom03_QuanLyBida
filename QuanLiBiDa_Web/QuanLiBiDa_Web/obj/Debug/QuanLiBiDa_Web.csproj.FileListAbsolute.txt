@@ -1,0 +1,114 @@
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.dll.config
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Antlr3.Runtime.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\AspNet.ScriptManager.bootstrap.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\AspNet.ScriptManager.jQuery.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.SqlServer.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Google.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.ScriptManager.WebForms.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Web.Infrastructure.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Newtonsoft.Json.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Owin.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Optimization.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Providers.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\WebGrease.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Optimization.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Antlr3.Runtime.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Newtonsoft.Json.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.SqlServer.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Google.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.csprojResolveAssemblyReference.cache
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_BUS.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DAL.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DTO.dll
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_BUS.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DAL.pdb
+F:\Code\PhatTrienUngDungTM\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DTO.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\QuanLiBiDa_Web.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Antlr3.Runtime.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\AspNet.ScriptManager.bootstrap.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\AspNet.ScriptManager.jQuery.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.SqlServer.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Google.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Newtonsoft.Json.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Owin.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Optimization.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Providers.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\WebGrease.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_BUS.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DTO.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_BUS.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DAL.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Web_DTO.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\System.Web.Optimization.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Antlr3.Runtime.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Newtonsoft.Json.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\EntityFramework.SqlServer.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Google.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.csprojResolveAssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLiBiDa_Web\QuanLiBiDa_Web\obj\Debug\QuanLiBiDa_Web.pdb
