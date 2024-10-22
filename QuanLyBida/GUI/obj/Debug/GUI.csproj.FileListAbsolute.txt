@@ -1,2 +1,3 @@
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\QuanLyBida\GUI\bin\Debug\GUI.exe.config
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\QuanLyBida\GUI\bin\Debug\GUI.exe.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\QuanLyBida\GUI\bin\Debug\GUI.exe.config
