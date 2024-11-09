@@ -5,3 +5,11 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.dll
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.pdb
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.dll
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.pdb
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.dll.config
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.dll
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.pdb
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.dll
+F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.pdb
