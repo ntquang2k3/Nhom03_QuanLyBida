@@ -7,3 +7,10 @@ F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_Qu
 F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.dll
 F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.pdb
 F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll.config
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll.config
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.pdb
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.dll
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.pdb

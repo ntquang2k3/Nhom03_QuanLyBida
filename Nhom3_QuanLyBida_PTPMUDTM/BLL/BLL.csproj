@@ -43,6 +43,10 @@
     <Compile Include="BangThongKeBLL.cs" />
     <Compile Include="HangHoaBLL.cs" />
     <Compile Include="HoaDonBLL.cs" />
+    <Compile Include="KhachHangBLL.cs" />
+    <Compile Include="LoaiHangHoaBLL.cs" />
+    <Compile Include="LoaiKhachHangBLL.cs" />
+    <Compile Include="NhanVienBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

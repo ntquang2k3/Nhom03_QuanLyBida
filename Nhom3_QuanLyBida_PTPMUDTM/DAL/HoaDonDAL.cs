@@ -151,5 +151,31 @@ namespace DAL
         {
             return dbContext.HOADONs.SingleOrDefault(hd => hd.MaHDBH == maHDBH);
         }
+
+        public List<HOADON> SearchHoaDonMaKH(string maKH)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(maKH))
+                {
+
+                    return new List<HOADON>();
+                }
+
+                var hoaDon = dbContext.HOADONs
+                                            .Where(ct => ct.MaKH == maKH)
+                                            .ToList();
+                if (hoaDon.Count == 0)
+                {
+                    return new List<HOADON>();
+                }
+
+                return hoaDon;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Lỗi khi truy vấn hóa đơn: " + ex.Message);
+            }
+        }
     }
 }

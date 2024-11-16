@@ -47,6 +47,11 @@ namespace BLL
             return hoaDonDAL.GetHoaDon(maHDBH);
         }
 
+        public List<HOADON> GetHoaDonByMaKH(string maKH)
+        {
+            return hoaDonDAL.SearchHoaDonMaKH(maKH);
+        }
+
     }
 
 }

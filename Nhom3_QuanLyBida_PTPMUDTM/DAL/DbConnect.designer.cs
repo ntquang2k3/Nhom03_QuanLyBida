@@ -22,7 +22,7 @@ namespace DAL
 	using System;
 	
 	
-	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="DoAnQuanLyQuanBida2")]
+	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="DoAnQuanLyQuanBida")]
 	public partial class DbConnectDataContext : System.Data.Linq.DataContext
 	{
 		
@@ -81,7 +81,7 @@ namespace DAL
     #endregion
 		
 		public DbConnectDataContext() : 
-				base(global::DAL.Properties.Settings.Default.DoAnQuanLyQuanBida2ConnectionString, mappingSource)
+				base(global::DAL.Properties.Settings.Default.DoAnQuanLyQuanBidaConnectionString, mappingSource)
 		{
 			OnCreated();
 		}

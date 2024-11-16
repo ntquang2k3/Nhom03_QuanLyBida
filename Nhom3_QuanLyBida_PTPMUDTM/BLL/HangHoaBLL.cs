@@ -14,9 +14,33 @@ namespace BLL
         {
             hangHoaDAL = new HangHoaDAL();
         }
+        public bool AddHangHoa(HANGHOA hangHoa)
+        {
+            return hangHoaDAL.AddHangHoa(hangHoa);
+        }
+
+        public bool DeleteHangHoa(string hangHoa)
+        {
+            return hangHoaDAL.DeleteHangHoa(hangHoa) ;
+        }
+
+        public bool UpdateHangHoa(HANGHOA hangHoa)
+        {
+            return hangHoaDAL.UpdateHangHoa(hangHoa);
+        }
+
+        public List<HANGHOA> GetHangHoaByMaLH(string maLH)
+        {
+            return hangHoaDAL.SearchHangHoaMaLH(maLH);
+        }
         public List<ThongKeMonDTO> LayThongKeMon(DateTime? selectedDate = null)
         {
             return hangHoaDAL.LayThongKeMon(selectedDate);
+        }
+        
+        public List<HANGHOA> LayDanhSachHangHoa()
+        {
+            return hangHoaDAL.LayDanhSachHangHoa();
         }
 
     }
