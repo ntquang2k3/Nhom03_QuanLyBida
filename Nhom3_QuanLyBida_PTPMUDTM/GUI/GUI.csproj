@@ -78,6 +78,12 @@
     <Compile Include="frmQuanLyKhachHang.Designer.cs">
       <DependentUpon>frmQuanLyKhachHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmQuanLyLoaiBan_KhuVuc_Ban.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanLyLoaiBan_KhuVuc_Ban.Designer.cs">
+      <DependentUpon>frmQuanLyLoaiBan_KhuVuc_Ban.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuanLyLoaiHangHoa.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKhachHang.resx">
       <DependentUpon>frmQuanLyKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanLyLoaiBan_KhuVuc_Ban.resx">
+      <DependentUpon>frmQuanLyLoaiBan_KhuVuc_Ban.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyLoaiHangHoa.resx">
       <DependentUpon>frmQuanLyLoaiHangHoa.cs</DependentUpon>

@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="BanDAL.cs" />
     <Compile Include="BangThongKeDAL.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="LoaiBanDAL.cs" />
     <Compile Include="DbConnect.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -51,6 +51,7 @@
     <Compile Include="HangHoaDAL.cs" />
     <Compile Include="HoaDonDAL.cs" />
     <Compile Include="KhachHangDAL.cs" />
+    <Compile Include="KhuVucDAL.cs" />
     <Compile Include="LoaiHangHoaDAL.cs" />
     <Compile Include="LoaiKhachHangDAL.cs" />
     <Compile Include="NhanVienDAL.cs" />

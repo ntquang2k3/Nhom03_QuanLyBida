@@ -63,3 +63,4 @@ B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\D
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyLoaiHangHoa.resources
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyNhanVien.resources
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyKhachHang.resources
+B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyLoaiBan_KhuVuc_Ban.resources
