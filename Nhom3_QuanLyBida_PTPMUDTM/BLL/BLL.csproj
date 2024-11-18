@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="BanBLL.cs" />
     <Compile Include="BangThongKeBLL.cs" />
+    <Compile Include="ChiTietNiemYetBLL.cs" />
     <Compile Include="HangHoaBLL.cs" />
     <Compile Include="HoaDonBLL.cs" />
     <Compile Include="KhachHangBLL.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="LoaiHangHoaBLL.cs" />
     <Compile Include="LoaiKhachHangBLL.cs" />
     <Compile Include="NhanVienBLL.cs" />
+    <Compile Include="NiemYetBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
