@@ -1,7 +1,6 @@
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.exe.config
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.exe
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.pdb
-E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.Properties.Resources.resources
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.exe
@@ -10,27 +9,35 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.dll
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\BLL.pdb
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.exe.config
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.exe
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.exe
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\GUI.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\BLL.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DAL.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\BLL.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DAL.pdb
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csprojResolveAssemblyReference.cache
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.Properties.Resources.resources
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.GenerateResource.Cache
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.diglogChiTietHoaDon.resources
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyHoaDon.resources
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\BouncyCastle.Cryptography.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\itextsharp.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\Syncfusion.Compression.Base.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\Syncfusion.XlsIO.Base.dll
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\BouncyCastle.Cryptography.xml
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\itextsharp.xml
-F:\Code\HK1_Nam4\PhatTrienUngDungThongMinh\version_v1\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyHoaDon2.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.Up2Date
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Data.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Utils.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.XtraBars.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Drawing.v22.2.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Data.Desktop.v22.2.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Data.v22.2.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Printing.v22.2.Core.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Utils.v22.2.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.XtraBars.v22.2.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.XtraEditors.v22.2.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Pdf.v22.2.Core.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmChoiBida.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmMain.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DAL.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DAL.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\UC.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\UC.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmChuyenBan.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmTinhTien.resources
