@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\gui\\frmchoibida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|e:\\code sinh vien nam 4\\phattrienungdungthongminh\\doancuoiky\\nhom03_quanlybida\\nhom3_quanlybida_ptpmudtm\\gui\\frmchoibida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|solutionrelative:gui\\frmchoibida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|e:\\code sinh vien nam 4\\phattrienungdungthongminh\\doancuoiky\\nhom03_quanlybida\\nhom3_quanlybida_ptpmudtm\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6C1369B1-4C24-4479-9C88-4A00953220CC}|GUI\\GUI.csproj|solutionrelative:gui\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -117,8 +117,7 @@
               "ToolTip": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmMain.cs [Design]",
               "RelativeToolTip": "GUI\\frmMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T11:11:58.171Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-14T11:11:58.171Z"
             },
             {
               "$type": "Document",

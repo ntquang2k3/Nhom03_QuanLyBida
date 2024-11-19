@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -72,18 +72,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T07:55:52.722Z",
               "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DB_DAL.cs",
-              "DocumentMoniker": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\DAL\\DB_DAL.cs",
-              "RelativeDocumentMoniker": "DAL\\DB_DAL.cs",
-              "ToolTip": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\DAL\\DB_DAL.cs",
-              "RelativeToolTip": "DAL\\DB_DAL.cs",
-              "ViewState": "AgIAAPIAAAAAAAAAAAAYwCgBAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:24:37.421Z"
             },
             {
               "$type": "Document",
@@ -132,6 +120,30 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmChoiBida.cs [Design]",
+              "DocumentMoniker": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmChoiBida.cs",
+              "RelativeDocumentMoniker": "GUI\\frmChoiBida.cs",
+              "ToolTip": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmChoiBida.cs [Design]",
+              "RelativeToolTip": "GUI\\frmChoiBida.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:19:50.484Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DB_DAL.cs",
+              "DocumentMoniker": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\DAL\\DB_DAL.cs",
+              "RelativeDocumentMoniker": "DAL\\DB_DAL.cs",
+              "ToolTip": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\DAL\\DB_DAL.cs",
+              "RelativeToolTip": "DAL\\DB_DAL.cs",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAYwCgBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:24:37.421Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "frmChoiBida.cs",
               "DocumentMoniker": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmChoiBida.cs",
@@ -142,18 +154,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-07T07:57:35.569Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmChoiBida.cs [Design]",
-              "DocumentMoniker": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmChoiBida.cs",
-              "RelativeDocumentMoniker": "GUI\\frmChoiBida.cs",
-              "ToolTip": "E:\\Code Sinh Vien Nam 4\\PhatTrienUngDungThongMinh\\DoAnCuoiKy\\Nhom03_QuanLyBida\\Nhom3_QuanLyBida_PTPMUDTM\\GUI\\frmChoiBida.cs [Design]",
-              "RelativeToolTip": "GUI\\frmChoiBida.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T07:19:50.484Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
