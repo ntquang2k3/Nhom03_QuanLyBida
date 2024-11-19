@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DTO">
-      <HintPath>..\DTO\bin\Debug\DTO.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
@@ -43,36 +40,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DB_DAL.cs" />
+    <Compile Include="BanDAL.cs" />
+    <Compile Include="BangThongKeDAL.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="DbConnect.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DbConnect.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="HangHoaDAL.cs" />
+    <Compile Include="HoaDonDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="QuanLyBida.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>QuanLyBida.dbml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DbConnect.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DbConnect.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="QuanLyBida.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>QuanLyBida.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="QuanLyBida.dbml.layout">
-      <DependentUpon>QuanLyBida.dbml</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DbConnect.dbml.layout">
+      <DependentUpon>DbConnect.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{a31cd734-d26f-431b-9931-f33e6de012c5}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
