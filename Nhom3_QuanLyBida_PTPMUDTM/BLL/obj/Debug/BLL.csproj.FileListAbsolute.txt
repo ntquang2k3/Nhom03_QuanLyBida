@@ -6,4 +6,8 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\bin\Debug\DTO.dll
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\bin\Debug\DAL.pdb
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\bin\Debug\DTO.pdb
-E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\obj\Debug\BLL.csproj.Up2Date
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\bin\Debug\DAL.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\BLL\bin\Debug\DTO.dll.config
