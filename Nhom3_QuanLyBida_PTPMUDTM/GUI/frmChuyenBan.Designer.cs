@@ -28,19 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dtgvChuyenBan = new System.Windows.Forms.DataGridView();
             this.btnChuyenDen = new System.Windows.Forms.Button();
+            this.dtgvChuyenBan = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvChuyenBan)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dtgvChuyenBan
-            // 
-            this.dtgvChuyenBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvChuyenBan.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dtgvChuyenBan.Location = new System.Drawing.Point(0, 0);
-            this.dtgvChuyenBan.Name = "dtgvChuyenBan";
-            this.dtgvChuyenBan.Size = new System.Drawing.Size(800, 450);
-            this.dtgvChuyenBan.TabIndex = 0;
             // 
             // btnChuyenDen
             // 
@@ -51,9 +42,18 @@
             this.btnChuyenDen.Location = new System.Drawing.Point(0, 377);
             this.btnChuyenDen.Name = "btnChuyenDen";
             this.btnChuyenDen.Size = new System.Drawing.Size(800, 73);
-            this.btnChuyenDen.TabIndex = 1;
+            this.btnChuyenDen.TabIndex = 3;
             this.btnChuyenDen.Text = "Chuyển Đến";
             this.btnChuyenDen.UseVisualStyleBackColor = false;
+            // 
+            // dtgvChuyenBan
+            // 
+            this.dtgvChuyenBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvChuyenBan.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgvChuyenBan.Location = new System.Drawing.Point(0, 0);
+            this.dtgvChuyenBan.Name = "dtgvChuyenBan";
+            this.dtgvChuyenBan.Size = new System.Drawing.Size(800, 450);
+            this.dtgvChuyenBan.TabIndex = 2;
             // 
             // frmChuyenBan
             // 
@@ -71,7 +71,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dtgvChuyenBan;
         private System.Windows.Forms.Button btnChuyenDen;
+        private System.Windows.Forms.DataGridView dtgvChuyenBan;
     }
 }

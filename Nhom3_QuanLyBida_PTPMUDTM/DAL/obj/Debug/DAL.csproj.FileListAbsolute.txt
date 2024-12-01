@@ -9,3 +9,14 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csproj.Up2Date
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.dll.config
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DAL.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\bin\Debug\DTO.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.csproj.Up2Date
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DAL\obj\Debug\DAL.pdb

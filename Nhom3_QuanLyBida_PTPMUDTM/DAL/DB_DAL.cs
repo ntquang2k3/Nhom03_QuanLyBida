@@ -11,7 +11,7 @@ namespace DAL
     public class DB_DAL
     {
         QuanLyBidaDataContext qlbd = new QuanLyBidaDataContext();
-        public DB_DAL() 
+        public DB_DAL()
         {
         }
         public DataTable LayDanhSachLoaiBan()
@@ -38,7 +38,7 @@ namespace DAL
         {
             var dsKhuVuc = from khuVuc in qlbd.KHUVUCs
                            where khuVuc.MaLoaiBan == maLoaiBan
-                            select khuVuc;
+                           select khuVuc;
             // Khởi tạo DataTable và cấu hình các cột
             DataTable dt = new DataTable();
             dt.Columns.Add("MaKV", typeof(string)); // Cột maban kiểu int
@@ -126,12 +126,12 @@ namespace DAL
                                 MaBan = ban.MaBan,             // Mã bàn
                                 TenBan = ban.TenBan,
                                 TrangThai = ban.TrangThai,  // Tên bàn
-                                TenKhuVuc = khuVuc.TenKV, 
+                                TenKhuVuc = khuVuc.TenKV,
                                 MaLoaiBan = ban.MaKV,// Tên khu vực
                                 TenLoaiBan = loaiBan.tenloaiban,    // Tên loại bàn
                                 GiaLoaiBan = loaiBan.GiaGioChoi,     // Giá giờ chơi
                                 GiaKhuVuc = khuVuc.GiaTien,
-                                    
+
                             };
             // Khởi tạo DataTable và cấu hình các cột
             DataTable dt = new DataTable();
@@ -161,8 +161,8 @@ namespace DAL
         public DataTable LayDanhSachLoaiHangHoa()
         {
             var dsLoaiHH = from loaiHH in qlbd.LOAIHHs
-                            where loaiHH != null
-                            select loaiHH;
+                           where loaiHH != null
+                           select loaiHH;
             // Khởi tạo DataTable và cấu hình các cột
             DataTable dt = new DataTable();
             dt.Columns.Add("MaLH", typeof(string)); // Cột maban kiểu int
@@ -186,8 +186,8 @@ namespace DAL
             }
             var dsHangHoa = from hangHoa in qlbd.HANGHOAs
                             join loaiHangHoa in qlbd.LOAIHHs on hangHoa.MaLH equals loaiHangHoa.MaLH
-                           where hangHoa.MaLH.Contains(maLoaiHangHoa)
-                           select hangHoa;
+                            where hangHoa.MaLH.Contains(maLoaiHangHoa)
+                            select hangHoa;
             // Khởi tạo DataTable và cấu hình các cột
             DataTable dt = new DataTable();
             dt.Columns.Add("MaHH", typeof(string));
@@ -211,16 +211,17 @@ namespace DAL
         public DataTable LayChiTietHoaDon(int maHoaDon)
         {
             var dsCTHD = from cthd in qlbd.CHITIETHOADONs
-                            join hoadon in qlbd.HOADONs on cthd.MaHDBH equals hoadon.MaHDBH
-                            join hanghoa in qlbd.HANGHOAs on cthd.MaHH equals hanghoa.MaHH
-                            where cthd.MaHDBH.Equals(maHoaDon)
-                            select new { 
-                                MaHDBH = cthd.MaHDBH,
-                                MaHH = cthd.MaHH,
-                                TenHH = hanghoa.TenHH,
-                                SoLuong = cthd.SoLuong,
-                                ThanhTien = cthd.ThanhTien
-                            };
+                         join hoadon in qlbd.HOADONs on cthd.MaHDBH equals hoadon.MaHDBH
+                         join hanghoa in qlbd.HANGHOAs on cthd.MaHH equals hanghoa.MaHH
+                         where cthd.MaHDBH.Equals(maHoaDon)
+                         select new
+                         {
+                             MaHDBH = cthd.MaHDBH,
+                             MaHH = cthd.MaHH,
+                             TenHH = hanghoa.TenHH,
+                             SoLuong = cthd.SoLuong,
+                             ThanhTien = cthd.ThanhTien
+                         };
             // Khởi tạo DataTable và cấu hình các cột
             DataTable dt = new DataTable();
             dt.Columns.Add("MaHDBH", typeof(int));
@@ -261,7 +262,7 @@ namespace DAL
                 {
                     // Cập nhật số lượng
                     cthd.SoLuong = newCTHD.SoLuong;
-                    int gia = (int) cthd.HANGHOA.GiaSP;
+                    int gia = (int)cthd.HANGHOA.GiaSP;
                     cthd.ThanhTien = cthd.SoLuong * gia;
 
                     // Lưu thay đổi vào cơ sở dữ liệu
@@ -272,7 +273,7 @@ namespace DAL
                 // Nếu không tìm thấy chi tiết hóa đơn
                 return false; // Không tìm thấy chi tiết hóa đơn
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // Xử lý lỗi (nếu có)
                 return false;
@@ -319,7 +320,7 @@ namespace DAL
                 qlbd.SubmitChanges();
                 return true;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
@@ -397,7 +398,30 @@ namespace DAL
                     qlbd.SubmitChanges();
                     return true;
                 }
-                catch (Exception ex)
+                catch (Exception)
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool CapNhatHoaDon(HOADON hdCu, HOADON hdMoi)
+        {
+            if (hdCu != null)
+            {
+                hdCu = hdMoi;
+
+                // Lưu thay đổi vào cơ sở dữ liệu
+                try
+                {
+                    qlbd.SubmitChanges();
+                    return true;
+                }
+                catch (Exception)
                 {
                     return false;
                 }
@@ -472,15 +496,82 @@ namespace DAL
                     qlbd.SubmitChanges();
                     return true;
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     return false;
                 }
             }
             else
             {
-                return false; 
+                return false;
             }
+        }
+
+        //Cộng điểm cho khách hàng
+        public bool CongDiemKhachHang(KHACHHANG kh, int diemCong)
+        {
+            if (kh != null)
+            {
+                // Cập nhật trạng thái của bàn
+                kh.DiemTichLuy += diemCong;
+
+                // Lưu thay đổi vào cơ sở dữ liệu
+                try
+                {
+                    qlbd.SubmitChanges();
+                    return true;
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        //Lấy một nhân viên
+        public NHANVIEN LayMotNhanVien(string tk, string matkhau)
+        {
+            var nv = qlbd.NHANVIENs.Where(t => t.MaNV == tk && t.MatKhau == matkhau).FirstOrDefault();
+            return nv;
+        }
+        public NHANVIEN LayMotNhanVien(string tk)
+        {
+            var nv = qlbd.NHANVIENs.Where(t => t.MaNV == tk).FirstOrDefault();
+            return nv;
+        }
+        public DataTable GetTongTienTheoNgayHoanThanhDataTable(string ngay_bat_dau, string ngay_ket_thuc)
+        {
+            // Chuyển đổi chuỗi ngày sang DateTime
+            DateTime startDate = DateTime.Parse(ngay_bat_dau);
+            DateTime endDate = DateTime.Parse(ngay_ket_thuc);
+
+            // Sử dụng LINQ để tính tổng doanh thu theo ngày
+            var groupedData = qlbd.HOADONs
+                .Where(invoice => invoice.NgayXuatHD >= startDate && invoice.NgayXuatHD <= endDate)
+                .GroupBy(invoice => invoice.NgayXuatHD.Value.Date) // Nhóm theo ngày
+                .Select(group => new
+                {
+                    Date = group.Key,
+                    TotalRevenue = group.Sum(invoice => invoice.TongTien)
+                })
+                .ToList();
+
+            // Tạo DataTable để trả về kết quả
+            DataTable dt = new DataTable();
+            dt.Columns.Add("Ngày", typeof(DateTime));
+            dt.Columns.Add("Tổng Tiền", typeof(decimal));
+
+            // Đổ dữ liệu từ groupedData vào DataTable
+            foreach (var item in groupedData)
+            {
+                dt.Rows.Add(item.Date, item.TotalRevenue);
+            }
+
+            return dt;
         }
     }
 }

@@ -54,7 +54,7 @@ namespace GUI
             cthd = bll.LayChiTietHoaDonVoiMaHH(tableItemSelected.MaHoaDon, maHH);
             if (cthd != null) //Đã có trong hóa đơn
             {
-                cthd.SoLuong = (int) numUpDownSL.Value;
+                cthd.SoLuong = (int)numUpDownSL.Value;
                 //Cập nhật hóa dơn
                 bool kq = bll.CapNhatSoLuongCTHD(tableItemSelected.MaHoaDon, maHH, cthd);
                 if (kq == true)
@@ -66,7 +66,7 @@ namespace GUI
                 {
                     MessageBox.Show("Sửa số lượng không thành công !!!");
                 }
-                
+
             }
         }
 
@@ -74,7 +74,7 @@ namespace GUI
         {
             string maHH = dataGridViewGoiMon.SelectedRows[0].Cells["MaHH"].Value.ToString();
             int hdbh = int.Parse(dataGridViewGoiMon.SelectedRows[0].Cells["MaHDBH"].Value.ToString());
-            bool kq = bll.XoaChiTietHoaDon(hdbh,maHH);
+            bool kq = bll.XoaChiTietHoaDon(hdbh, maHH);
             if (kq == true)
             {
                 MessageBox.Show("Đã xóa thành công !!!");
@@ -90,7 +90,7 @@ namespace GUI
         private void BtnThem_Click(object sender, EventArgs e)
         {
             string maHH = dataGridViewThucDon.SelectedRows[0].Cells["MaHH"].Value.ToString();
-            int giaSP = int.Parse(dataGridViewThucDon.SelectedRows[0].Cells["GiaSP"].Value.ToString());           
+            int giaSP = int.Parse(dataGridViewThucDon.SelectedRows[0].Cells["GiaSP"].Value.ToString());
             CHITIETHOADON cthd = new CHITIETHOADON();
             cthd = bll.LayChiTietHoaDonVoiMaHH(tableItemSelected.MaHoaDon, maHH);
             if (cthd != null) //Đã có trong hóa đơn
@@ -114,14 +114,31 @@ namespace GUI
             }
             //Load lại chi tiết hóa đơn
             LoadDataGridViewHoaDon(tableItemSelected.MaHoaDon);
-            
+
         }
 
         private void BtnTinhTien_Click(object sender, EventArgs e)
         {
             frmTinhTien frm = new frmTinhTien();
             frm.maHDBH = tableItemSelected.MaHoaDon;
+            // Đăng ký sự kiện BtnInClicked từ frmTinhTien
+            frm.BtnInClicked += Frm_BtnInClicked;
             frm.Show();
+        }
+
+        private void Frm_BtnInClicked(object sender, EventArgs e)
+        {
+            LoadComboboxLoaiBan();
+            LoadComboboxKhuVuc();
+            LoadComboboxTrangThaiBan();
+            LoadButton();
+            LoadComboboxLoaiHH();
+            LoadDataGridViewMenu("All");
+            //Load danh sách bàn
+            LoadDanhSachBanChoi(int.Parse(cbbLoaiBan.SelectedValue.ToString()), "All", "All");
+            dataGridViewGoiMon.SelectionChanged -= DataGridViewGoiMon_SelectionChanged;
+            dataGridViewGoiMon.DataSource = null;
+
         }
 
         private void BtnDongBan_Click(object sender, EventArgs e)
@@ -153,7 +170,7 @@ namespace GUI
                         labelNgayHoaDon.Text = String.Empty;
                         LoadButton();
                         LoadDanhSachBanChoi(int.Parse(cbbLoaiBan.SelectedValue.ToString()), cbbKhuVuc.SelectedValue.ToString(), cbbTrangThaiBan.SelectedValue.ToString());
-                    }               
+                    }
                 }
             }
 
@@ -171,7 +188,7 @@ namespace GUI
             if (!string.IsNullOrEmpty(maBanCanChuyen))
             {
                 BAN b1 = bll.LayMotBan(tableItemSelected.MaBan);
-                bll.CapNhatTrangThaiBan(b1, "Trống");                
+                bll.CapNhatTrangThaiBan(b1, "Trống");
                 //Sau đó cập nhật bàn cần chuyển
                 BAN b2 = bll.LayMotBan(maBanCanChuyen);
                 bll.CapNhatTrangThaiBan(b2, "Đang chơi");
@@ -228,7 +245,7 @@ namespace GUI
                     LoadButton();
                     LoadDanhSachBanChoi(int.Parse(cbbLoaiBan.SelectedValue.ToString()), cbbKhuVuc.SelectedValue.ToString(), cbbTrangThaiBan.SelectedValue.ToString());
                 }
-                
+
             }
         }
 
@@ -291,11 +308,15 @@ namespace GUI
             //string selectedMaLH = cbbLoaiHang.SelectedValue.ToString();
             DataTable dt = bll.LayDanhSachHangHoa(maLH);
             dataGridViewThucDon.AllowUserToAddRows = false;
-            dataGridViewThucDon.MultiSelect= false;
+            dataGridViewThucDon.MultiSelect = false;
             dataGridViewThucDon.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridViewThucDon.DataSource = dt;
             dataGridViewThucDon.Columns["MaHH"].Visible = false;
             dataGridViewThucDon.Columns["MaLH"].Visible = false;
+            dataGridViewThucDon.Columns["TenHH"].HeaderText = "Tên món ăn";
+            dataGridViewThucDon.Columns["HinhAnh"].HeaderText = "Hình ảnh";
+            dataGridViewThucDon.Columns["GiaSP"].HeaderText = "Giá món ăn";
+            //dataGridViewThucDon.Columns["hinh_anh"].HeaderText = "Hình ảnh";
         }
 
         private void LoadComboboxLoaiHH()
@@ -403,7 +424,7 @@ namespace GUI
         {
             panelDsBanChoi.Controls.Clear();
             panelDsBanChoi.AutoScroll = true;
-            DataTable dt = bll.LayDanhSachBan(maLoaiBan,maKhuVuc,trangThai);
+            DataTable dt = bll.LayDanhSachBan(maLoaiBan, maKhuVuc, trangThai);
             int topPosition = 20;
             int leftPosition = 20;
             //int distanceTop = 10;
@@ -412,18 +433,18 @@ namespace GUI
             int soLuongMotHang = 3;
             int soLuongBan = dt.Rows.Count;
             soHang = soLuongBan / soLuongMotHang + 1;
-            for (int i = 1; i <= soHang ; i++)
+            for (int i = 1; i <= soHang; i++)
             {
                 for (int j = 1; j <= soLuongMotHang; j++)
                 {
-                    int viTriPhanTu = (i-1)*soLuongMotHang+j;
+                    int viTriPhanTu = (i - 1) * soLuongMotHang + j;
                     if (viTriPhanTu > soLuongBan)
                     {
                         return;
                     }
                     trangThai = dt.Rows[viTriPhanTu - 1]["TrangThai"].ToString();
                     TableItem item = new TableItem(trangThai);
-                    item.Name = dt.Rows[viTriPhanTu-1]["MaBan"].ToString();
+                    item.Name = dt.Rows[viTriPhanTu - 1]["MaBan"].ToString();
                     item.MaBan = dt.Rows[viTriPhanTu - 1]["MaBan"].ToString();
                     HOADON hdmoinhat = bll.LayHoaDonMoiNhat(item.MaBan);
                     if (hdmoinhat != null)
@@ -433,8 +454,8 @@ namespace GUI
                     item.TenBan = dt.Rows[viTriPhanTu - 1]["TenBan"].ToString();
                     item.MaLoaiBan = dt.Rows[viTriPhanTu - 1]["MaLoaiBan"].ToString();
                     item.LoaiBan = dt.Rows[viTriPhanTu - 1]["TenLoaiBan"].ToString();
-                    item.Top = (i-1)*topPosition + (i-1)*item.Height;
-                    item.Left = (j-1)*item.Width + (j-1)*leftPosition;
+                    item.Top = (i - 1) * topPosition + (i - 1) * item.Height;
+                    item.Left = (j - 1) * item.Width + (j - 1) * leftPosition;
                     item.Click += Item_Click;
                     panelDsBanChoi.Controls.Add(item);
                 }
@@ -491,14 +512,16 @@ namespace GUI
                     //Tắt nút Thêm lưu xóa sửa
                     btnThem.Enabled = false;
                     btnXoaMon.Enabled = false;
+                    btnSua.Enabled = false;
+                    btnSua.BackColor = Color.Gray;
                     btnThem.BackColor = Color.Gray;
                     btnXoaMon.BackColor = Color.Gray;
-                    //dataGridViewGoiMon.SelectionChanged -= DataGridViewGoiMon_SelectionChanged;
-                    //dataGridViewGoiMon.DataSource = null;
+                    dataGridViewGoiMon.SelectionChanged -= DataGridViewGoiMon_SelectionChanged;
+                    dataGridViewGoiMon.DataSource = null;
                     LoadThongTinHoaDon(clickItem.MaHoaDon);
                 }
             }
-            
+
 
         }
 

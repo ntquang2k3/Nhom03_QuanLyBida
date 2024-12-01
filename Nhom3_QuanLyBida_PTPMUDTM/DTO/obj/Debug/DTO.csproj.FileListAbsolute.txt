@@ -5,3 +5,10 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll.config
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\bin\Debug\DTO.pdb
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.dll
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\DTO\obj\Debug\DTO.pdb

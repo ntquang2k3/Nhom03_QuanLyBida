@@ -36,7 +36,7 @@ namespace GUI
 
         private void BtnChuyenDen_Click(object sender, EventArgs e)
         {
-            MaChuyenDen = dtgvChuyenBan.SelectedRows[0].Cells["MaBan"].Value.ToString(); 
+            MaChuyenDen = dtgvChuyenBan.SelectedRows[0].Cells["MaBan"].Value.ToString();
             this.Close(); // Đóng Form nhập mã bàn sau khi lấy giá trị mã bàn
         }
     }

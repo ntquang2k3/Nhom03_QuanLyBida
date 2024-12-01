@@ -11,9 +11,9 @@ namespace BLL
     public class DB_BLL
     {
         DB_DAL dal = new DB_DAL();
-        
+
         public DataTable LayDanhSachLoaiBan()
-        {           
+        {
             return dal.LayDanhSachLoaiBan();
         }
         public DataTable LayDanhSachKhuVuc(int maLoaiBan)
@@ -30,7 +30,7 @@ namespace BLL
         }
         public DataTable LayDanhSachBan(int maLoaiBan, string maKhuVuc, string trangThai)
         {
-            return dal.LayDanhSachBan(maLoaiBan,maKhuVuc,trangThai);
+            return dal.LayDanhSachBan(maLoaiBan, maKhuVuc, trangThai);
         }
         public DataTable LayDanhSachLoaiHangHoa()
         {
@@ -66,7 +66,7 @@ namespace BLL
         }
         public bool XoaChiTietHoaDon(int mahoadon, string mahh)
         {
-            return dal.XoaChiTietHoaDon(mahoadon,mahh);
+            return dal.XoaChiTietHoaDon(mahoadon, mahh);
         }
         public DataTable LayChiTietHoaDon(int maHoaDon)
         {
@@ -78,7 +78,7 @@ namespace BLL
         }
         public bool CapNhatSoLuongCTHD(int maHoaDon, string maHH, CHITIETHOADON cthd)
         {
-            return dal.CapNhatSoLuongCTHD(maHoaDon,maHH, cthd);
+            return dal.CapNhatSoLuongCTHD(maHoaDon, maHH, cthd);
         }
         public BAN LayMotBan(string maBan)
         {
@@ -90,11 +90,32 @@ namespace BLL
         }
         public bool CapNhatBanCuaHoaDon(HOADON hd, string maBan)
         {
-            return dal.CapNhatBanCuaHoaDon(hd,maBan);
+            return dal.CapNhatBanCuaHoaDon(hd, maBan);
+        }
+        public bool CapNhatHoaDon(HOADON hdCu, HOADON hdMoi)
+        {
+            return dal.CapNhatHoaDon(hdCu, hdMoi);
         }
         public int TinhTienDichVuHoaDon(int maHoaDon)
         {
             return dal.TinhTienDichVuHoaDon(maHoaDon);
+        }
+        //Cộng điểm khách hàng
+        public bool CongDiemKhachHang(KHACHHANG kh, int diemCong)
+        {
+            return dal.CongDiemKhachHang(kh, diemCong);
+        }
+        public NHANVIEN LayMotNhanVien(string tk, string matkhau)
+        {
+            return dal.LayMotNhanVien(tk, matkhau);
+        }
+        public NHANVIEN LayMotNhanVien(string tk)
+        {
+            return dal.LayMotNhanVien(tk);
+        }
+        public DataTable GetTongTienTheoNgayHoanThanhDataTable(string ngay_bat_dau, string ngay_ket_thuc)
+        {
+            return dal.GetTongTienTheoNgayHoanThanhDataTable(ngay_bat_dau, ngay_ket_thuc);
         }
     }
 }

@@ -41,12 +41,24 @@ namespace BLL
         {
             return hoaDonDAL.GetChiTietHoaDon(maHDBH);
         }
+        public List<HoaDonReport> LayChiTietHoaDonReport(int maHDBH)
+        {
+            return hoaDonDAL.LayChiTietHoaDonReport(maHDBH) ;
+        }
 
         public HOADON LayHoaDon(int maHDBH)
         {
             return hoaDonDAL.GetHoaDon(maHDBH);
         }
 
+        public List<HOADON> GetHoaDonByMaKH(string maKH)
+        {
+            return hoaDonDAL.SearchHoaDonMaKH(maKH);
+        }
+        public IQueryable<dynamic> LayHoaDonLoc(string maBan, string maNhanVien, DateTime? ngayChoi)
+        {
+            return hoaDonDAL.GetHoaDonFiltered(maBan, maNhanVien, ngayChoi);
+        }
     }
 
 }
