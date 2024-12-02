@@ -15,6 +15,7 @@ namespace GUI
 {
     public partial class frmMain : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
+        DanhMucManHinhBLL danhMucManHinhBLL = new DanhMucManHinhBLL();
         public string MaNV {  get; set; }
         public frmMain()
         {
@@ -34,19 +35,23 @@ namespace GUI
             menuItemQLNhanVien.Click += MenuItemQLNhanVien_Click;
             btnDangXuat.ItemClick += BtnDangXuat_ItemClick;
             btnThietLapTaiKhoan.ItemClick += BtnThietLapTaiKhoan_ItemClick;
+            this.FormClosed += FrmMain_FormClosed;
+        }
+
+        private void FrmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
 
         private void BtnThietLapTaiKhoan_ItemClick(object sender, ItemClickEventArgs e)
         {
-            
+            frmDoiMatKhau frm = new frmDoiMatKhau(MaNV);
+            frm.ShowDialog();
         }
 
         private void BtnDangXuat_ItemClick(object sender, ItemClickEventArgs e)
         {
-            // Đóng form chính và hiển thị lại form đăng nhập
-            frmDangNhap loginForm = new frmDangNhap();
-            loginForm.Show();
-            this.Close(); // Đóng form chính
+            Application.Exit();
         }
 
         private void MenuItemQLNhanVien_Click(object sender, EventArgs e)
@@ -71,7 +76,7 @@ namespace GUI
 
         private void MenuItemChoiBida_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new frmChoiBida());
+            OpenChildForm(new frmChoiBida(MaNV));
         }
 
         private void MenuItemThongKe_Click(object sender, EventArgs e)
@@ -103,15 +108,23 @@ namespace GUI
         {
             DB_BLL bLL = new DB_BLL();
             NHANVIEN nv = bLL.LayMotNhanVien(MaNV);
+            //Load nhân viên lên txtTenNhanVien
+            txtTenNhanVien.Caption = nv.TenNV;
             //Kiểm tra nhóm quyền của nhân viên và hiển thị các chức năng tương ứng
             PhanQuyen();
             FullScreenForm();
-            OpenChildForm(new frmChoiBida());
+            OpenChildForm(new frmChoiBida(MaNV));
         }
         private void PhanQuyen()
         {
             // Lấy danh sách quyền của nhân viên từ PhanQuyenBLL
-            List<string> danhSachQuyen = new List<string>();
+            List<DanhMucManHinh> danhSachQuyen = danhMucManHinhBLL.LayDanhSachManHinh(MaNV);
+            // Kiểm tra danh sách quyền
+            Console.WriteLine("Danh sách quyền:");
+            foreach (var item in danhSachQuyen)
+            {
+                Console.WriteLine($"MaManHinh: {item.MaManHinh}");
+            }
 
             // Lặp qua tất cả các control trong accordionControl1
             foreach (AccordionControlElement control in accordionControl1.Elements)
@@ -121,33 +134,46 @@ namespace GUI
             }
         }
 
-        private void PhanQuyenChoElement(AccordionControlElement element, List<string> danhSachQuyen)
+        private void PhanQuyenChoElement(AccordionControlElement element, List<DanhMucManHinh> danhSachQuyen)
         {
+            bool hasPermission = false;
+
             // Kiểm tra nếu element có Tag (có thể là danh sách quyền yêu cầu)
             if (element.Tag != null)
             {
-                // Lấy danh sách quyền yêu cầu từ Tag, tách bằng dấu phẩy
-                List<string> requiredPermissions = element.Tag.ToString().Split(',').ToList();
-
+                Console.WriteLine($"Tag của element: {element.Tag}");
+                var kq = danhSachQuyen.FirstOrDefault(t => t.MaManHinh == element.Tag.ToString());
                 // Kiểm tra nếu nhân viên có ít nhất một quyền trong danh sách quyền yêu cầu
-                if (requiredPermissions.Any(permission => danhSachQuyen.Contains(permission)))
+                if (kq != null)
                 {
-                    // Nếu có quyền, hiển thị và cho phép tương tác với element
-                    element.Visible = true;
-                    element.Enabled = true;
+                    hasPermission = true;
                 }
-                else
-                {
-                    // Nếu không có quyền, ẩn element và vô hiệu hóa
-                    element.Visible = false;
-                    element.Enabled = false;
-                }
+            }
+
+            // Nếu element có quyền, hiển thị và cho phép tương tác với element
+            if (hasPermission)
+            {
+                element.Visible = true;
+                element.Enabled = true;
+            }
+            else
+            {
+                // Nếu không có quyền, ẩn element và vô hiệu hóa
+                element.Visible = false;
+                element.Enabled = false;
             }
 
             // Tiếp tục phân quyền cho các phần tử con của element (nếu có)
             foreach (AccordionControlElement childElement in element.Elements)
             {
                 PhanQuyenChoElement(childElement, danhSachQuyen);
+
+                // Nếu phần tử con có quyền, cho phép phần tử cha cũng được hiển thị
+                if (childElement.Visible)
+                {
+                    element.Visible = true;
+                    element.Enabled = true;
+                }
             }
         }
         public void FullScreenForm()
@@ -175,6 +201,11 @@ namespace GUI
         private void btnNhomNguoiDung_ManHinh_Click(object sender, EventArgs e)
         {
             OpenChildForm(new frmNhomNguoiDung_ManHinh());
+        }
+
+        private void btnNhanVien_NhomNguoiDung_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmNhanVien_NhomNguoiDung());
         }
     }
 }

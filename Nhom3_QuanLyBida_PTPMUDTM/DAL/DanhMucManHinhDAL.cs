@@ -28,6 +28,12 @@ namespace DAL
             lst = dsmh.ToList();
             return lst;
         }
+
+        public List<DanhMucManHinh> LayDanhSachManHinhChuaCo(string maNhomNguoiDung)
+        {
+            return db.DanhMucManHinhs.Where(x => !db.QL_PhanQuyens.Any(y => y.MaManHinh == x.MaManHinh && y.MaNhomNguoiDung == maNhomNguoiDung)).ToList();
+        }
+
         //Lấy danh mục màn hình truyền vào manhomnguoidung
         public List<DanhMucManHinh> LayDanhSachManHinhTheoNhomNguoiDung(string maNhomNguoiDung)
         {
@@ -40,5 +46,39 @@ namespace DAL
             lst = dsmh.ToList();
             return lst;
         }
-   }
+
+        public bool ThemManHinhVaoNhomNguoiDung(string maNhomNguoiDung, string maManHinh)
+        {
+            //Thêm màn hình vào nhóm người dùng
+            try
+            {
+                QL_PhanQuyen qlpq = new QL_PhanQuyen();
+                qlpq.MaNhomNguoiDung = maNhomNguoiDung;
+                qlpq.MaManHinh = maManHinh;
+                db.QL_PhanQuyens.InsertOnSubmit(qlpq);
+                db.SubmitChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
+        public bool XoaManHinhKhoiNhomNguoiDung(string text, string maManHinh)
+        {
+            //Xóa màn hình khỏi nhóm người dùng
+            try
+            {
+                QL_PhanQuyen qlpq = db.QL_PhanQuyens.FirstOrDefault(x => x.MaNhomNguoiDung == text && x.MaManHinh == maManHinh);
+                db.QL_PhanQuyens.DeleteOnSubmit(qlpq);
+                db.SubmitChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+    }
 }

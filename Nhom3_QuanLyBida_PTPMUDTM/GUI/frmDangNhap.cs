@@ -19,6 +19,7 @@ namespace GUI
         public frmDangNhap()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             this.Load += DangNhap_Load;
             btn_hienmatkhau.Click += Btn_hienmatkhau_Click;
             btnThoat.Click += btnThoat_Click;
@@ -85,6 +86,7 @@ namespace GUI
         private void DangNhap_Load(object sender, EventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = true;
+            
         }
     }
 }

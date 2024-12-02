@@ -93,17 +93,23 @@
     <Compile Include="frmDangNhap.Designer.cs">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoiMatKhau.Designer.cs">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmThemQuyen.cs">
+    <Compile Include="frmNhanVien_NhomNguoiDung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmThemQuyen.Designer.cs">
-      <DependentUpon>frmThemQuyen.cs</DependentUpon>
+    <Compile Include="frmNhanVien_NhomNguoiDung.Designer.cs">
+      <DependentUpon>frmNhanVien_NhomNguoiDung.cs</DependentUpon>
     </Compile>
     <Compile Include="frmNhomNguoiDung_ManHinh.cs">
       <SubType>Form</SubType>
@@ -134,11 +140,14 @@
     <EmbeddedResource Include="frmDangNhap.resx">
       <DependentUpon>frmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDoiMatKhau.resx">
+      <DependentUpon>frmDoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmThemQuyen.resx">
-      <DependentUpon>frmThemQuyen.cs</DependentUpon>
+    <EmbeddedResource Include="frmNhanVien_NhomNguoiDung.resx">
+      <DependentUpon>frmNhanVien_NhomNguoiDung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmNhomNguoiDung_ManHinh.resx">
       <DependentUpon>frmNhomNguoiDung_ManHinh.cs</DependentUpon>
@@ -285,6 +294,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\boperson_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boemployee_32x321.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -45,6 +45,7 @@
             this.menuItemThongKe = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.btnNhomNguoiDung_ManHinh = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.btnNhanVien_NhomNguoiDung = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
             this.btnThietLapTaiKhoan = new DevExpress.XtraBars.BarButtonItem();
             this.txtTenNhanVien = new DevExpress.XtraBars.BarStaticItem();
@@ -102,6 +103,7 @@
             new DevExpress.XtraBars.Navigation.HeaderElementInfo(DevExpress.XtraBars.Navigation.HeaderElementType.ContextButtons, DevExpress.XtraBars.Navigation.HeaderElementAlignment.Left)});
             this.menuItemMenu.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemMenu.ImageOptions.Image")));
             this.menuItemMenu.Name = "menuItemMenu";
+            this.menuItemMenu.Tag = "1";
             this.menuItemMenu.Text = "Menu";
             // 
             // menuItemChoiBida
@@ -109,7 +111,7 @@
             this.menuItemChoiBida.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemChoiBida.ImageOptions.Image")));
             this.menuItemChoiBida.Name = "menuItemChoiBida";
             this.menuItemChoiBida.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemChoiBida.Tag = "Q001";
+            this.menuItemChoiBida.Tag = "MH001";
             this.menuItemChoiBida.Text = "Chơi Bida";
             // 
             // menuItemQuanLy
@@ -123,6 +125,7 @@
             this.menuItemQuanLy.Expanded = true;
             this.menuItemQuanLy.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQuanLy.ImageOptions.Image")));
             this.menuItemQuanLy.Name = "menuItemQuanLy";
+            this.menuItemQuanLy.Tag = "1";
             this.menuItemQuanLy.Text = "Quản lý";
             // 
             // menuItemQLLoaiHangHangHoa
@@ -130,7 +133,7 @@
             this.menuItemQLLoaiHangHangHoa.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQLLoaiHangHangHoa.ImageOptions.Image")));
             this.menuItemQLLoaiHangHangHoa.Name = "menuItemQLLoaiHangHangHoa";
             this.menuItemQLLoaiHangHangHoa.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemQLLoaiHangHangHoa.Tag = "Q002";
+            this.menuItemQLLoaiHangHangHoa.Tag = "MH002";
             this.menuItemQLLoaiHangHangHoa.Text = "Quản lý Hàng Hóa - Loại Hàng Hóa";
             // 
             // menuItemQLBan_KV_LB
@@ -138,7 +141,7 @@
             this.menuItemQLBan_KV_LB.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQLBan_KV_LB.ImageOptions.Image")));
             this.menuItemQLBan_KV_LB.Name = "menuItemQLBan_KV_LB";
             this.menuItemQLBan_KV_LB.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemQLBan_KV_LB.Tag = "Q003";
+            this.menuItemQLBan_KV_LB.Tag = "MH003";
             this.menuItemQLBan_KV_LB.Text = "Quản lý Loại Bàn - Bàn - Khu Vực";
             // 
             // menuItemQLNhanVien
@@ -146,7 +149,7 @@
             this.menuItemQLNhanVien.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQLNhanVien.ImageOptions.Image")));
             this.menuItemQLNhanVien.Name = "menuItemQLNhanVien";
             this.menuItemQLNhanVien.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemQLNhanVien.Tag = "Q004";
+            this.menuItemQLNhanVien.Tag = "MH004";
             this.menuItemQLNhanVien.Text = "Quản Lý Nhân Viên";
             // 
             // menuItemQLKhachHang
@@ -154,7 +157,7 @@
             this.menuItemQLKhachHang.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQLKhachHang.ImageOptions.Image")));
             this.menuItemQLKhachHang.Name = "menuItemQLKhachHang";
             this.menuItemQLKhachHang.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemQLKhachHang.Tag = "Q005";
+            this.menuItemQLKhachHang.Tag = "MH005";
             this.menuItemQLKhachHang.Text = "Quản lý khách hàng";
             // 
             // menuItemQLHoaDon
@@ -162,7 +165,7 @@
             this.menuItemQLHoaDon.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemQLHoaDon.ImageOptions.Image")));
             this.menuItemQLHoaDon.Name = "menuItemQLHoaDon";
             this.menuItemQLHoaDon.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemQLHoaDon.Tag = "Q006";
+            this.menuItemQLHoaDon.Tag = "MH006";
             this.menuItemQLHoaDon.Text = "Quản Lý Hóa Đơn";
             // 
             // menuItemThongKeRoot
@@ -172,6 +175,7 @@
             this.menuItemThongKeRoot.Expanded = true;
             this.menuItemThongKeRoot.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemThongKeRoot.ImageOptions.Image")));
             this.menuItemThongKeRoot.Name = "menuItemThongKeRoot";
+            this.menuItemThongKeRoot.Tag = "1";
             this.menuItemThongKeRoot.Text = "Thống kê";
             // 
             // menuItemThongKe
@@ -179,16 +183,18 @@
             this.menuItemThongKe.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menuItemThongKe.ImageOptions.Image")));
             this.menuItemThongKe.Name = "menuItemThongKe";
             this.menuItemThongKe.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menuItemThongKe.Tag = "Q007";
+            this.menuItemThongKe.Tag = "MH007";
             this.menuItemThongKe.Text = "Thống kê";
             // 
             // accordionControlElement1
             // 
             this.accordionControlElement1.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
-            this.btnNhomNguoiDung_ManHinh});
+            this.btnNhomNguoiDung_ManHinh,
+            this.btnNhanVien_NhomNguoiDung});
             this.accordionControlElement1.Expanded = true;
             this.accordionControlElement1.ImageOptions.Image = global::GUI.Properties.Resources.team_32x32;
             this.accordionControlElement1.Name = "accordionControlElement1";
+            this.accordionControlElement1.Tag = "1";
             this.accordionControlElement1.Text = "Phân Quyền";
             // 
             // btnNhomNguoiDung_ManHinh
@@ -196,8 +202,18 @@
             this.btnNhomNguoiDung_ManHinh.ImageOptions.Image = global::GUI.Properties.Resources.boperson_32x32;
             this.btnNhomNguoiDung_ManHinh.Name = "btnNhomNguoiDung_ManHinh";
             this.btnNhomNguoiDung_ManHinh.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnNhomNguoiDung_ManHinh.Tag = "MH008";
             this.btnNhomNguoiDung_ManHinh.Text = "Nhóm người dùng - Màn hình";
             this.btnNhomNguoiDung_ManHinh.Click += new System.EventHandler(this.btnNhomNguoiDung_ManHinh_Click);
+            // 
+            // btnNhanVien_NhomNguoiDung
+            // 
+            this.btnNhanVien_NhomNguoiDung.ImageOptions.Image = global::GUI.Properties.Resources.boemployee_32x321;
+            this.btnNhanVien_NhomNguoiDung.Name = "btnNhanVien_NhomNguoiDung";
+            this.btnNhanVien_NhomNguoiDung.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
+            this.btnNhanVien_NhomNguoiDung.Tag = "MH009";
+            this.btnNhanVien_NhomNguoiDung.Text = "Nhân viên - Nhóm người dùng";
+            this.btnNhanVien_NhomNguoiDung.Click += new System.EventHandler(this.btnNhanVien_NhomNguoiDung_Click);
             // 
             // fluentDesignFormControl1
             // 
@@ -292,5 +308,6 @@
         private DevExpress.XtraBars.BarButtonItem btnDangXuat;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
         private DevExpress.XtraBars.Navigation.AccordionControlElement btnNhomNguoiDung_ManHinh;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement btnNhanVien_NhomNguoiDung;
     }
 }

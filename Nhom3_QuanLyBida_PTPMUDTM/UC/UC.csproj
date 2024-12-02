@@ -53,6 +53,12 @@
       <DependentUpon>TableItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThemXoaSuaLuu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThemXoaSuaLuu.Designer.cs">
+      <DependentUpon>ThemXoaSuaLuu.cs</DependentUpon>
+    </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +68,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TableItem.resx">
       <DependentUpon>TableItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemXoaSuaLuu.resx">
+      <DependentUpon>ThemXoaSuaLuu.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +84,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\banBidaTrong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-save-as-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-tick-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-update-32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,11 +18,26 @@ namespace BLL
         {
             return dal.LayDanhSachManHinh(maNV);
         }
+
+        public List<DanhMucManHinh> LayDanhSachManHinhChuaCo(string maNhomNguoiDung)
+        {
+            return dal.LayDanhSachManHinhChuaCo(maNhomNguoiDung);
+        }
+
         //Lấy danh mục màn hình truyền vào manhomnguoidung
         public List<DanhMucManHinh> LayDanhSachManHinhTheoNhomNguoiDung(string maNhomNguoiDung)
         {
             return dal.LayDanhSachManHinhTheoNhomNguoiDung(maNhomNguoiDung);
         }
 
+        public bool ThemManHinhVaoNhomNguoiDung(string maNhomNguoiDung, string maManHinh)
+        {
+            return dal.ThemManHinhVaoNhomNguoiDung(maNhomNguoiDung, maManHinh);
+        }
+
+        public bool XoaManHinhKhoiNhomNguoiDung(string text, string maManHinh)
+        {
+            return dal.XoaManHinhKhoiNhomNguoiDung(text, maManHinh);
+        }
     }
 }

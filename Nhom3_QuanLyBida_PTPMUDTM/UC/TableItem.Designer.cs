@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.label_tenBan = new System.Windows.Forms.Label();
-            this.anhBanBida = new System.Windows.Forms.PictureBox();
             this.labelLoaiBan = new System.Windows.Forms.Label();
+            this.anhBanBida = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.anhBanBida)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,19 +47,6 @@
             this.label_tenBan.TabIndex = 3;
             this.label_tenBan.Text = "Tên bàn chơi";
             // 
-            // anhBanBida
-            // 
-            this.anhBanBida.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.anhBanBida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.anhBanBida.Image = global::UC.Properties.Resources.banBidaTrong;
-            this.anhBanBida.Location = new System.Drawing.Point(17, 9);
-            this.anhBanBida.Margin = new System.Windows.Forms.Padding(2);
-            this.anhBanBida.Name = "anhBanBida";
-            this.anhBanBida.Size = new System.Drawing.Size(115, 157);
-            this.anhBanBida.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.anhBanBida.TabIndex = 2;
-            this.anhBanBida.TabStop = false;
-            // 
             // labelLoaiBan
             // 
             this.labelLoaiBan.Anchor = System.Windows.Forms.AnchorStyles.Top;
@@ -72,6 +59,19 @@
             this.labelLoaiBan.Size = new System.Drawing.Size(56, 13);
             this.labelLoaiBan.TabIndex = 3;
             this.labelLoaiBan.Text = "Loại bàn";
+            // 
+            // anhBanBida
+            // 
+            this.anhBanBida.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.anhBanBida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.anhBanBida.Image = global::UC.Properties.Resources.banBidaTrong;
+            this.anhBanBida.Location = new System.Drawing.Point(17, 9);
+            this.anhBanBida.Margin = new System.Windows.Forms.Padding(2);
+            this.anhBanBida.Name = "anhBanBida";
+            this.anhBanBida.Size = new System.Drawing.Size(115, 157);
+            this.anhBanBida.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.anhBanBida.TabIndex = 2;
+            this.anhBanBida.TabStop = false;
             // 
             // TableItem
             // 

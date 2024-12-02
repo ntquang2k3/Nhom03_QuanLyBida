@@ -16,11 +16,18 @@ namespace GUI
 {
     public partial class frmChoiBida : Form
     {
+        private string manv;
         DB_BLL bll = new DB_BLL();
         public frmChoiBida()
         {
             InitializeComponent();
             AddEvents();
+        }
+        public frmChoiBida(string manvtruyen)
+        {
+            InitializeComponent();
+            AddEvents();
+            this.manv = manvtruyen;
         }
 
         private void AddEvents()
@@ -218,7 +225,7 @@ namespace GUI
                     DateTime thoiGianVao = DateTime.Now;
                     string MABAN = tableItemSelected.MaBan.ToString();
                     //Lấy mã nhân viên từ formMain
-                    string MANV = "NV001";
+                    string MANV = this.manv;
                     //Tạo mới hóa đơn
                     HOADON hd = new HOADON();
                     hd.MaHDBH = bll.TaoMaHoaDon();

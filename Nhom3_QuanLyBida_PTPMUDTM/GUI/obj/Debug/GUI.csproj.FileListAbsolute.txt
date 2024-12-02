@@ -88,5 +88,6 @@ E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\N
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DevExpress.Sparkline.v22.2.Core.xml
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.Up2Date
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmDangNhap.resources
-E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmThemQuyen.resources
 E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmNhomNguoiDung_ManHinh.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmNhanVien_NhomNguoiDung.resources
+E:\Code Sinh Vien Nam 4\PhatTrienUngDungThongMinh\DoAnCuoiKy\Nhom03_QuanLyBida\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmDoiMatKhau.resources

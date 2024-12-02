@@ -44,7 +44,6 @@
             this.btnSua = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.numUpDownSL = new System.Windows.Forms.NumericUpDown();
-            this.labelTongTien = new System.Windows.Forms.Label();
             this.btnDongBan = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -54,7 +53,6 @@
             this.labelNgayHoaDon = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label24 = new System.Windows.Forms.Label();
             this.btnXoaMon = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.dataGridViewGoiMon = new System.Windows.Forms.DataGridView();
@@ -79,9 +77,10 @@
             this.btnMoBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMoBan.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMoBan.ForeColor = System.Drawing.Color.White;
+            this.btnMoBan.Image = global::GUI.Properties.Resources.icons8_open_35;
             this.btnMoBan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMoBan.Location = new System.Drawing.Point(950, 34);
-            this.btnMoBan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnMoBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMoBan.Name = "btnMoBan";
             this.btnMoBan.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
             this.btnMoBan.Size = new System.Drawing.Size(135, 39);
@@ -95,7 +94,7 @@
             this.panelDsBanChoi.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelDsBanChoi.Location = new System.Drawing.Point(3, 16);
             this.panelDsBanChoi.Name = "panelDsBanChoi";
-            this.panelDsBanChoi.Size = new System.Drawing.Size(509, 666);
+            this.panelDsBanChoi.Size = new System.Drawing.Size(509, 713);
             this.panelDsBanChoi.TabIndex = 0;
             // 
             // groupBox1
@@ -103,7 +102,7 @@
             this.groupBox1.Controls.Add(this.panelDsBanChoi);
             this.groupBox1.Location = new System.Drawing.Point(9, 168);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(515, 685);
+            this.groupBox1.Size = new System.Drawing.Size(515, 732);
             this.groupBox1.TabIndex = 45;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách bàn chơi";
@@ -166,12 +165,13 @@
             this.btnLoadDSBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLoadDSBan.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLoadDSBan.ForeColor = System.Drawing.Color.White;
+            this.btnLoadDSBan.Image = global::GUI.Properties.Resources.icons8_search_351;
             this.btnLoadDSBan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLoadDSBan.Location = new System.Drawing.Point(367, 124);
-            this.btnLoadDSBan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLoadDSBan.Location = new System.Drawing.Point(333, 124);
+            this.btnLoadDSBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLoadDSBan.Name = "btnLoadDSBan";
             this.btnLoadDSBan.Padding = new System.Windows.Forms.Padding(15, 0, 15, 0);
-            this.btnLoadDSBan.Size = new System.Drawing.Size(135, 39);
+            this.btnLoadDSBan.Size = new System.Drawing.Size(169, 39);
             this.btnLoadDSBan.TabIndex = 46;
             this.btnLoadDSBan.Text = "Hiển Thị Bàn";
             this.btnLoadDSBan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -199,9 +199,10 @@
             this.btnChuyenBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnChuyenBan.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChuyenBan.ForeColor = System.Drawing.Color.White;
+            this.btnChuyenBan.Image = global::GUI.Properties.Resources.icons8_forward_35;
             this.btnChuyenBan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnChuyenBan.Location = new System.Drawing.Point(950, 83);
-            this.btnChuyenBan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnChuyenBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChuyenBan.Name = "btnChuyenBan";
             this.btnChuyenBan.Padding = new System.Windows.Forms.Padding(22, 0, 22, 0);
             this.btnChuyenBan.Size = new System.Drawing.Size(135, 39);
@@ -217,9 +218,10 @@
             this.btnTinhTien.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnTinhTien.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinhTien.ForeColor = System.Drawing.Color.White;
+            this.btnTinhTien.Image = global::GUI.Properties.Resources.icons8_bill_35;
             this.btnTinhTien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnTinhTien.Location = new System.Drawing.Point(1103, 83);
-            this.btnTinhTien.Margin = new System.Windows.Forms.Padding(2);
+            this.btnTinhTien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnTinhTien.Name = "btnTinhTien";
             this.btnTinhTien.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.btnTinhTien.Size = new System.Drawing.Size(135, 39);
@@ -235,6 +237,7 @@
             this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnSua.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSua.ForeColor = System.Drawing.Color.White;
+            this.btnSua.Image = global::GUI.Properties.Resources.icons8_update_35;
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnSua.Location = new System.Drawing.Point(600, 38);
             this.btnSua.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -277,19 +280,6 @@
             0,
             0});
             // 
-            // labelTongTien
-            // 
-            this.labelTongTien.AutoSize = true;
-            this.labelTongTien.Dock = System.Windows.Forms.DockStyle.Left;
-            this.labelTongTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTongTien.ForeColor = System.Drawing.Color.Red;
-            this.labelTongTien.Location = new System.Drawing.Point(74, 15);
-            this.labelTongTien.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.labelTongTien.Name = "labelTongTien";
-            this.labelTongTien.Size = new System.Drawing.Size(88, 15);
-            this.labelTongTien.TabIndex = 22;
-            this.labelTongTien.Text = "TỔNG TIỀN :";
-            // 
             // btnDongBan
             // 
             this.btnDongBan.BackColor = System.Drawing.Color.Navy;
@@ -297,9 +287,10 @@
             this.btnDongBan.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDongBan.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDongBan.ForeColor = System.Drawing.Color.White;
+            this.btnDongBan.Image = global::GUI.Properties.Resources.icons8_close_35;
             this.btnDongBan.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDongBan.Location = new System.Drawing.Point(1103, 33);
-            this.btnDongBan.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDongBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDongBan.Name = "btnDongBan";
             this.btnDongBan.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.btnDongBan.Size = new System.Drawing.Size(135, 39);
@@ -318,9 +309,9 @@
             this.groupBox2.Controls.Add(this.labelNgayHoaDon);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Location = new System.Drawing.Point(634, 10);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Size = new System.Drawing.Size(284, 116);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
@@ -392,30 +383,17 @@
             this.groupBox5.Controls.Add(this.btnSua);
             this.groupBox5.Controls.Add(this.label4);
             this.groupBox5.Controls.Add(this.numUpDownSL);
-            this.groupBox5.Controls.Add(this.labelTongTien);
-            this.groupBox5.Controls.Add(this.label24);
             this.groupBox5.Controls.Add(this.btnXoaMon);
             this.groupBox5.Controls.Add(this.btnThem);
             this.groupBox5.Controls.Add(this.dataGridViewGoiMon);
             this.groupBox5.Location = new System.Drawing.Point(534, 497);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(739, 353);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Size = new System.Drawing.Size(739, 403);
             this.groupBox5.TabIndex = 39;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Gọi món";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label24.Location = new System.Drawing.Point(2, 15);
-            this.label24.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(72, 13);
-            this.label24.TabIndex = 22;
-            this.label24.Text = "TỔNG TIỀN :";
             // 
             // btnXoaMon
             // 
@@ -424,6 +402,7 @@
             this.btnXoaMon.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnXoaMon.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaMon.ForeColor = System.Drawing.Color.White;
+            this.btnXoaMon.Image = global::GUI.Properties.Resources.icons8_delete_35;
             this.btnXoaMon.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnXoaMon.Location = new System.Drawing.Point(173, 38);
             this.btnXoaMon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -443,6 +422,7 @@
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnThem.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThem.ForeColor = System.Drawing.Color.White;
+            this.btnThem.Image = global::GUI.Properties.Resources.icons8_add_351;
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThem.Location = new System.Drawing.Point(4, 38);
             this.btnThem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -462,11 +442,11 @@
             this.dataGridViewGoiMon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewGoiMon.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridViewGoiMon.Location = new System.Drawing.Point(2, 79);
-            this.dataGridViewGoiMon.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridViewGoiMon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewGoiMon.MultiSelect = false;
             this.dataGridViewGoiMon.Name = "dataGridViewGoiMon";
             this.dataGridViewGoiMon.RowTemplate.Height = 28;
-            this.dataGridViewGoiMon.Size = new System.Drawing.Size(735, 272);
+            this.dataGridViewGoiMon.Size = new System.Drawing.Size(735, 322);
             this.dataGridViewGoiMon.TabIndex = 0;
             // 
             // cbbLoaiHang
@@ -474,7 +454,7 @@
             this.cbbLoaiHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.cbbLoaiHang.FormattingEnabled = true;
             this.cbbLoaiHang.Location = new System.Drawing.Point(2, 28);
-            this.cbbLoaiHang.Margin = new System.Windows.Forms.Padding(2);
+            this.cbbLoaiHang.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cbbLoaiHang.Name = "cbbLoaiHang";
             this.cbbLoaiHang.Size = new System.Drawing.Size(740, 21);
             this.cbbLoaiHang.TabIndex = 2;
@@ -497,7 +477,7 @@
             this.dataGridViewThucDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewThucDon.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dataGridViewThucDon.Location = new System.Drawing.Point(2, 57);
-            this.dataGridViewThucDon.Margin = new System.Windows.Forms.Padding(2);
+            this.dataGridViewThucDon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewThucDon.Name = "dataGridViewThucDon";
             this.dataGridViewThucDon.ReadOnly = true;
             this.dataGridViewThucDon.RowTemplate.Height = 28;
@@ -510,9 +490,9 @@
             this.groupBox4.Controls.Add(this.label27);
             this.groupBox4.Controls.Add(this.dataGridViewThucDon);
             this.groupBox4.Location = new System.Drawing.Point(529, 130);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Size = new System.Drawing.Size(744, 363);
             this.groupBox4.TabIndex = 38;
             this.groupBox4.TabStop = false;
@@ -522,7 +502,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1282, 862);
+            this.ClientSize = new System.Drawing.Size(1314, 904);
             this.Controls.Add(this.btnMoBan);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnLoadDSBan);
@@ -569,7 +549,6 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.NumericUpDown numUpDownSL;
-        private System.Windows.Forms.Label labelTongTien;
         private System.Windows.Forms.Button btnDongBan;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label23;
@@ -579,7 +558,6 @@
         private System.Windows.Forms.Label labelNgayHoaDon;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Button btnXoaMon;
         private System.Windows.Forms.Button btnThem;
         private System.Windows.Forms.DataGridView dataGridViewGoiMon;
