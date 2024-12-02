@@ -227,7 +227,18 @@ namespace GUI
         {
             double tienDungDiem;
             tienDungDiem = (double)numericDungDiem.Value;
-            int diemHienCo = int.Parse(lblDiemTichLuyDangCo.Text);
+            int diemHienCo = 0;
+            try
+            {
+                diemHienCo = int.Parse(lblDiemTichLuyDangCo.Text);
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Lỗi chưa có điểm tích lũy");
+                return;
+            }
+
             if (diemHienCo >= tienDungDiem)
             {
                 tienThanhToan = tongTien - tienDungDiem;

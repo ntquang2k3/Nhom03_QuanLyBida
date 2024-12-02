@@ -35,10 +35,10 @@ namespace GUI
             menuItemQLNhanVien.Click += MenuItemQLNhanVien_Click;
             btnDangXuat.ItemClick += BtnDangXuat_ItemClick;
             btnThietLapTaiKhoan.ItemClick += BtnThietLapTaiKhoan_ItemClick;
-            this.FormClosed += FrmMain_FormClosed;
+            this.FormClosing += FrmMain_FormClosing;
         }
 
-        private void FrmMain_FormClosed(object sender, FormClosedEventArgs e)
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }
