@@ -64,14 +64,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="diglogChiTietHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="diglogChiTietHoaDon.Designer.cs">
-      <DependentUpon>diglogChiTietHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Excel\ExcelExport.cs" />
-    <Compile Include="Excel\ExcelExportMonAn.cs" />
     <Compile Include="frmQuanLyKhachHang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,18 +82,6 @@
     <Compile Include="frmQuanLyLoaiHangHoa.Designer.cs">
       <DependentUpon>frmQuanLyLoaiHangHoa.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmQuanLyHoaDon.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQuanLyHoaDon.Designer.cs">
-      <DependentUpon>frmQuanLyHoaDon.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQuanLyHoaDon2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQuanLyHoaDon2.Designer.cs">
-      <DependentUpon>frmQuanLyHoaDon2.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmQuanLyNhanVien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,17 +94,8 @@
     <Compile Include="frmQuanLyNiemYet.Designer.cs">
       <DependentUpon>frmQuanLyNiemYet.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmThongKeDoanhThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmThongKeDoanhThu.Designer.cs">
-      <DependentUpon>frmThongKeDoanhThu.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="diglogChiTietHoaDon.resx">
-      <DependentUpon>diglogChiTietHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyKhachHang.resx">
       <DependentUpon>frmQuanLyKhachHang.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,20 +105,11 @@
     <EmbeddedResource Include="frmQuanLyLoaiHangHoa.resx">
       <DependentUpon>frmQuanLyLoaiHangHoa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyHoaDon.resx">
-      <DependentUpon>frmQuanLyHoaDon.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQuanLyHoaDon2.resx">
-      <DependentUpon>frmQuanLyHoaDon2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyNhanVien.resx">
       <DependentUpon>frmQuanLyNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmQuanLyNiemYet.resx">
       <DependentUpon>frmQuanLyNiemYet.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmThongKeDoanhThu.resx">
-      <DependentUpon>frmThongKeDoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

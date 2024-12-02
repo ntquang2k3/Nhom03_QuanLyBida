@@ -8,7 +8,7 @@ namespace DAL
 {
     public class KhachHangDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<KHACHHANG> GetListKhachHang()
         {
             return db.KHACHHANGs.ToList();
@@ -97,7 +97,7 @@ namespace DAL
                 khachHang.DiaChi = updateKhachHang.DiaChi ?? khachHang.DiaChi;
                 khachHang.DiemTichLuy = updateKhachHang.DiemTichLuy;
                 khachHang.SDT = updateKhachHang.SDT ?? khachHang.SDT;
-                khachHang.MatKhau = updateKhachHang.MatKhau ?? khachHang.MatKhau;
+                //khachHang.MatKhau = updateKhachHang.MatKhau ?? khachHang.MatKhau;
                 khachHang.HoatDong = updateKhachHang.HoatDong;
 
                 // Gán đối tượng liên quan thay vì trực tiếp thay đổi MaLKH

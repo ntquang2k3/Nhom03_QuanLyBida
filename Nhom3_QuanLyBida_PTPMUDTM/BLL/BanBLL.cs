@@ -32,13 +32,6 @@ namespace BLL
         {
             return banDAL.UpdateBan(ban);
         }
-        public List<BanChoiNhieuDTO> LayDanhSachBanVaSoGioChoi()
-        {
-            return banDAL.LayDanhSachBanVaSoGioChoi();
-        }
-        public List<BanChoiNhieuDTO> LayDanhSachBanVaSoGioChoi(DateTime? ngay = null)
-        {
-            return banDAL.LayDanhSachBanVaSoGioChoi(ngay);
-        }
+      
     }
 }

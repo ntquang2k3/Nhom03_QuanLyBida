@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace GUI
 {
@@ -33,7 +34,7 @@ namespace GUI
             {
                 string maNV = txtMaNV.Text;
                 string tenNV = txtTenNV.Text;
-                string gioiTinh = txtGioiTinh.Text;
+                string gioiTinh = cbbGioiTinh.SelectedValue.ToString();
                 string diaChi = txtDiaChi.Text;
                 string soDienThoai = txtSDT.Text;
                 string phanQuyen = txtPhanQuyen.Text;
@@ -49,20 +50,9 @@ namespace GUI
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin hàng hóa.");
                     return;
                 }
-                if (txtHoatDong.Text == "Không hoạt động") // Phân biệt hoa/thường
-                {
-                    txtHoatDong.Text = "0";
-                }
-                else
-                {
-                    txtHoatDong.Text = "1";
-                }
+                int hoatDong = int.Parse(cbbHoatDong.SelectedValue.ToString());
 
-                if (!int.TryParse(txtHoatDong.Text, out int hoatDong) || hoatDong <= 0)
-                {
-                    MessageBox.Show("Hoạt động không hợp lệ!");
-                    return;
-                }
+
                 NHANVIEN newNhanVien = new NHANVIEN
 
                 {
@@ -81,6 +71,7 @@ namespace GUI
                 {
                     MessageBox.Show("Cập nhật nhân viên thành công!");
                     loadDSNhanVien();
+                    txtMaNV.Enabled = true; 
                     btnLuu.Enabled = false;
                 }
                 else
@@ -140,7 +131,7 @@ namespace GUI
             {
                 string maNV = txtMaNV.Text;
                 string tenNV = txtTenNV.Text;
-                string gioiTinh = txtGioiTinh.Text;
+                string gioiTinh = cbbGioiTinh.SelectedValue.ToString();
                 string diaChi = txtDiaChi.Text;
                 string soDienThoai = txtSDT.Text;
                 string phanQuyen = txtPhanQuyen.Text;
@@ -156,20 +147,16 @@ namespace GUI
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin hàng hóa.");
                     return;
                 }
-                if (txtHoatDong.Text == "Không hoạt động") // Phân biệt hoa/thường
-                {
-                    txtHoatDong.Text = "0";
-                }
-                else
-                {
-                    txtHoatDong.Text = "1";
-                }
+                //if (txtHoatDong.Text == "Không hoạt động") // Phân biệt hoa/thường
+                //{
+                //    txtHoatDong.Text = "0";
+                //}
+                //else
+                //{
+                //    txtHoatDong.Text = "1";
+                //}
 
-                if (!int.TryParse(txtHoatDong.Text, out int hoatDong) || hoatDong <= 0)
-                {
-                    MessageBox.Show("Hoạt động không hợp lệ!");
-                    return;
-                }
+                int hoatDong = int.Parse(cbbHoatDong.SelectedValue.ToString());
                 NHANVIEN newNhanVien = new NHANVIEN
 
                 {
@@ -208,11 +195,11 @@ namespace GUI
            txtMaNV.Clear();
            txtTenNV.Clear();
            txtSDT.Clear();
-            txtGioiTinh.Clear();
+           loadCbbGioiTinh();
             txtDiaChi.Clear();
             txtPhanQuyen.Clear();
             txtMatKhau.Clear();
-            txtHoatDong.Clear();
+            loadCbbHoatDong();
         }
 
         private void DgvNhanVien_SelectionChanged(object sender, EventArgs e)
@@ -222,22 +209,34 @@ namespace GUI
                 DataGridViewRow currentRow = dgvNhanVien.CurrentRow;
                 txtMaNV.Text = currentRow.Cells["MaNV"].Value?.ToString();
                 txtTenNV.Text = currentRow.Cells["TenNV"].Value?.ToString();
-                txtGioiTinh.Text = currentRow.Cells["GioiTinh"].Value?.ToString();
+                //cbbGioiTinh.SelectedItem = currentRow.Cells["GioiTinh"].Value?.ToString();
+
+
+                string gioiTinh = currentRow.Cells["GioiTinh"].Value?.ToString();
+
+                if(gioiTinh == "Nam")
+                {
+                    cbbGioiTinh.SelectedValue = "Nam";
+                }
+                else
+                {
+                    cbbGioiTinh.SelectedValue = "Nữ";
+                }
+                
                 txtDiaChi.Text = currentRow.Cells["DiaChi"].Value?.ToString();
                 txtSDT.Text = currentRow.Cells["SoDienThoai"].Value?.ToString();
                 txtPhanQuyen.Text = currentRow.Cells["PhanQuyen"].Value?.ToString();
                 txtMatKhau.Text = currentRow.Cells["MatKhau"].Value?.ToString();
-                var cellValue = currentRow.Cells["HoatDong"].Value?.ToString();
-                if (cellValue != null && int.TryParse(cellValue.ToString(), out int hoatDong))
+
+                //cbbHoatDong.SelectedValue = currentRow.Cells["HoatDong"].Value?.ToString();
+                string hoatDong = currentRow.Cells["HoatDong"].Value?.ToString();
+                if (hoatDong == "1")
                 {
-                    if (hoatDong == 0)
-                    {
-                        txtHoatDong.Text = "Không hoạt động";
-                    }
-                    else
-                    {
-                        txtHoatDong.Text = "Hoạt động";
-                    }
+                    cbbHoatDong.SelectedValue = 1;
+                }
+                else
+                {
+                    cbbHoatDong.SelectedValue = 0;
                 }
 
             }
@@ -249,9 +248,60 @@ namespace GUI
 
         private void FrmQuanLyNhanVien_Load(object sender, EventArgs e)
         {
+            loadCbbGioiTinh();
+            cbbGioiTinh.SelectedIndex = 0;
+
+            loadCbbHoatDong();
             loadDSNhanVien();
             btnLuu.Enabled = false;
+            
         }
+
+        private void loadCbbGioiTinh()
+        {
+            try
+            {
+                var dsGioiTinh = new List<object>
+                {
+                    new { MaGioiTinh = "Nam", TenGioiTinh = "Nam" },
+                    new { MaGioiTinh = "Nữ", TenGioiTinh = "Nữ" }
+                };
+
+                cbbGioiTinh.DataSource = dsGioiTinh;
+                cbbGioiTinh.ValueMember = "MaGioiTinh";
+                cbbGioiTinh.DisplayMember = "TenGioiTinh";
+                cbbGioiTinh.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải danh sách Bàn: " + ex.Message);
+            }
+        }
+
+        private void loadCbbHoatDong()
+        {
+            try
+            {
+
+                var danhSachTrangThai = new List<object>
+                {
+                    new { MaHoatDong = 1, TenHoatDong = "Hoạt động" },
+                    new { MaHoatDong = 0, TenHoatDong = "Không hoạt động" }
+                };
+
+                cbbHoatDong.DataSource = danhSachTrangThai;
+                cbbHoatDong.ValueMember = "MaHoatDong";
+                cbbHoatDong.DisplayMember = "TenHoatDong";
+                cbbHoatDong.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải danh sách Bàn: " + ex.Message);
+            }
+        }
+
         private void loadDSNhanVien()
         {
             dgvNhanVien.DataSource = null;
@@ -287,6 +337,12 @@ namespace GUI
                         }
                     }
                 }
+
+                foreach (DataGridViewRow row in dgvNhanVien.Rows)
+                {
+
+                    row.Height = 35;
+                }
                 dgvNhanVien.RowPostPaint += dgv_RowPostPaint;
             }
             catch (Exception ex)
@@ -316,7 +372,7 @@ namespace GUI
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
-                e.Handled = true; 
+                e.Handled = true;
             }
         }
     }

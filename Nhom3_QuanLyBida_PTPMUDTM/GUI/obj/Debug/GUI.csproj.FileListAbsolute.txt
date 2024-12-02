@@ -50,10 +50,6 @@ B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\D
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\DTO.dll.config
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\bin\Debug\itextsharp.xml
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.AssemblyReference.cache
-B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.diglogChiTietHoaDon.resources
-B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyHoaDon.resources
-B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmQuanLyHoaDon2.resources
-B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.frmThongKeDoanhThu.resources
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.Properties.Resources.resources
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
 B:\Hoc tap\HK7\PTUDTM\DoAn\Nhom03_QuanLyBida\Nhom3_QuanLyBida_PTPMUDTM\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache

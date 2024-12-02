@@ -33,10 +33,7 @@ namespace BLL
         {
             return hangHoaDAL.SearchHangHoaMaLH(maLH);
         }
-        public List<ThongKeMonDTO> LayThongKeMon(DateTime? selectedDate = null)
-        {
-            return hangHoaDAL.LayThongKeMon(selectedDate);
-        }
+     
         
         public List<HANGHOA> LayDanhSachHangHoa()
         {

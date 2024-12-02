@@ -44,11 +44,6 @@
     <Compile Include="BangThongKeDAL.cs" />
     <Compile Include="ChiTIetNiemYetDAL.cs" />
     <Compile Include="LoaiBanDAL.cs" />
-    <Compile Include="DbConnect.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DbConnect.dbml</DependentUpon>
-    </Compile>
     <Compile Include="HangHoaDAL.cs" />
     <Compile Include="HoaDonDAL.cs" />
     <Compile Include="KhachHangDAL.cs" />
@@ -63,26 +58,29 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyBida.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QuanLyBida.dbml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="DbConnect.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>DbConnect.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="QuanLyBida.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>QuanLyBida.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QuanLyBida.dbml.layout">
+      <DependentUpon>QuanLyBida.dbml</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="DbConnect.dbml.layout">
-      <DependentUpon>DbConnect.dbml</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\DTO.csproj">

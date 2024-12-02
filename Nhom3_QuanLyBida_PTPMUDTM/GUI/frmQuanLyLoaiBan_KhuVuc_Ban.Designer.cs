@@ -96,9 +96,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(9, 10);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(334, 254);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -111,7 +111,7 @@
             this.btnClearLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnClearLoai.Location = new System.Drawing.Point(86, 198);
-            this.btnClearLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClearLoai.Margin = new System.Windows.Forms.Padding(2);
             this.btnClearLoai.Name = "btnClearLoai";
             this.btnClearLoai.Size = new System.Drawing.Size(62, 34);
             this.btnClearLoai.TabIndex = 6;
@@ -125,7 +125,7 @@
             this.btnLuuLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLuuLoai.Location = new System.Drawing.Point(170, 198);
-            this.btnLuuLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLuuLoai.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuuLoai.Name = "btnLuuLoai";
             this.btnLuuLoai.Size = new System.Drawing.Size(56, 34);
             this.btnLuuLoai.TabIndex = 6;
@@ -139,7 +139,7 @@
             this.btnSuaLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSuaLoai.Location = new System.Drawing.Point(200, 160);
-            this.btnSuaLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSuaLoai.Margin = new System.Windows.Forms.Padding(2);
             this.btnSuaLoai.Name = "btnSuaLoai";
             this.btnSuaLoai.Size = new System.Drawing.Size(56, 32);
             this.btnSuaLoai.TabIndex = 6;
@@ -153,7 +153,7 @@
             this.btnXoaLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXoaLoai.Location = new System.Drawing.Point(125, 160);
-            this.btnXoaLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXoaLoai.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoaLoai.Name = "btnXoaLoai";
             this.btnXoaLoai.Size = new System.Drawing.Size(56, 32);
             this.btnXoaLoai.TabIndex = 6;
@@ -165,10 +165,10 @@
             this.btnThemLoai.BackColor = System.Drawing.Color.Navy;
             this.btnThemLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemLoai.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnThemLoai.Location = new System.Drawing.Point(48, 160);
-            this.btnThemLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemLoai.Location = new System.Drawing.Point(44, 160);
+            this.btnThemLoai.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemLoai.Name = "btnThemLoai";
-            this.btnThemLoai.Size = new System.Drawing.Size(59, 32);
+            this.btnThemLoai.Size = new System.Drawing.Size(63, 32);
             this.btnThemLoai.TabIndex = 6;
             this.btnThemLoai.Text = "Thêm";
             this.btnThemLoai.UseVisualStyleBackColor = false;
@@ -177,7 +177,7 @@
             // txtGiaGioChoi
             // 
             this.txtGiaGioChoi.Location = new System.Drawing.Point(100, 105);
-            this.txtGiaGioChoi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGiaGioChoi.Margin = new System.Windows.Forms.Padding(2);
             this.txtGiaGioChoi.Name = "txtGiaGioChoi";
             this.txtGiaGioChoi.Size = new System.Drawing.Size(208, 26);
             this.txtGiaGioChoi.TabIndex = 5;
@@ -186,7 +186,7 @@
             // txtTenLoai
             // 
             this.txtTenLoai.Location = new System.Drawing.Point(100, 67);
-            this.txtTenLoai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenLoai.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenLoai.Name = "txtTenLoai";
             this.txtTenLoai.Size = new System.Drawing.Size(208, 26);
             this.txtTenLoai.TabIndex = 4;
@@ -194,7 +194,7 @@
             // txtLoaiBan
             // 
             this.txtLoaiBan.Location = new System.Drawing.Point(100, 30);
-            this.txtLoaiBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtLoaiBan.Margin = new System.Windows.Forms.Padding(2);
             this.txtLoaiBan.Name = "txtLoaiBan";
             this.txtLoaiBan.Size = new System.Drawing.Size(208, 26);
             this.txtLoaiBan.TabIndex = 3;
@@ -232,27 +232,31 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox2.Controls.Add(this.dgvLoaiBan);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(9, 273);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox2.Size = new System.Drawing.Size(334, 301);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(334, 347);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Danh sách loại bàn";
             // 
             // dgvLoaiBan
             // 
+            this.dgvLoaiBan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvLoaiBan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvLoaiBan.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvLoaiBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvLoaiBan.Location = new System.Drawing.Point(4, 20);
-            this.dgvLoaiBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvLoaiBan.Margin = new System.Windows.Forms.Padding(2);
             this.dgvLoaiBan.Name = "dgvLoaiBan";
             this.dgvLoaiBan.RowTemplate.Height = 24;
-            this.dgvLoaiBan.Size = new System.Drawing.Size(326, 275);
+            this.dgvLoaiBan.Size = new System.Drawing.Size(326, 321);
             this.dgvLoaiBan.TabIndex = 0;
             this.dgvLoaiBan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -271,9 +275,9 @@
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(348, 10);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(412, 254);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
@@ -286,7 +290,7 @@
             this.btnClearKhuVuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearKhuVuc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnClearKhuVuc.Location = new System.Drawing.Point(128, 198);
-            this.btnClearKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClearKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnClearKhuVuc.Name = "btnClearKhuVuc";
             this.btnClearKhuVuc.Size = new System.Drawing.Size(68, 34);
             this.btnClearKhuVuc.TabIndex = 6;
@@ -300,7 +304,7 @@
             this.btnLuuKhuVuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuKhuVuc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLuuKhuVuc.Location = new System.Drawing.Point(218, 198);
-            this.btnLuuKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLuuKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuuKhuVuc.Name = "btnLuuKhuVuc";
             this.btnLuuKhuVuc.Size = new System.Drawing.Size(56, 34);
             this.btnLuuKhuVuc.TabIndex = 6;
@@ -314,7 +318,7 @@
             this.btnSuaKhuVuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaKhuVuc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnSuaKhuVuc.Location = new System.Drawing.Point(248, 160);
-            this.btnSuaKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSuaKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnSuaKhuVuc.Name = "btnSuaKhuVuc";
             this.btnSuaKhuVuc.Size = new System.Drawing.Size(56, 32);
             this.btnSuaKhuVuc.TabIndex = 6;
@@ -328,7 +332,7 @@
             this.btnXoaKhuVuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaKhuVuc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnXoaKhuVuc.Location = new System.Drawing.Point(173, 160);
-            this.btnXoaKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXoaKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoaKhuVuc.Name = "btnXoaKhuVuc";
             this.btnXoaKhuVuc.Size = new System.Drawing.Size(56, 32);
             this.btnXoaKhuVuc.TabIndex = 6;
@@ -341,7 +345,7 @@
             this.btnThemKhuVuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemKhuVuc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThemKhuVuc.Location = new System.Drawing.Point(82, 160);
-            this.btnThemKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemKhuVuc.Name = "btnThemKhuVuc";
             this.btnThemKhuVuc.Size = new System.Drawing.Size(74, 32);
             this.btnThemKhuVuc.TabIndex = 6;
@@ -352,7 +356,7 @@
             // txtGiaTien
             // 
             this.txtGiaTien.Location = new System.Drawing.Point(119, 103);
-            this.txtGiaTien.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtGiaTien.Margin = new System.Windows.Forms.Padding(2);
             this.txtGiaTien.Name = "txtGiaTien";
             this.txtGiaTien.Size = new System.Drawing.Size(220, 26);
             this.txtGiaTien.TabIndex = 5;
@@ -361,7 +365,7 @@
             // txtTenKhuVuc
             // 
             this.txtTenKhuVuc.Location = new System.Drawing.Point(119, 67);
-            this.txtTenKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenKhuVuc.Name = "txtTenKhuVuc";
             this.txtTenKhuVuc.Size = new System.Drawing.Size(220, 26);
             this.txtTenKhuVuc.TabIndex = 4;
@@ -369,7 +373,7 @@
             // txtMaKV
             // 
             this.txtMaKV.Location = new System.Drawing.Point(119, 30);
-            this.txtMaKV.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMaKV.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaKV.Name = "txtMaKV";
             this.txtMaKV.Size = new System.Drawing.Size(220, 26);
             this.txtMaKV.TabIndex = 3;
@@ -406,32 +410,38 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox4.Controls.Add(this.dgvKhuVuc);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(349, 273);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox4.Size = new System.Drawing.Size(411, 301);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Size = new System.Drawing.Size(411, 347);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh sách khu vực";
             // 
             // dgvKhuVuc
             // 
+            this.dgvKhuVuc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvKhuVuc.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhuVuc.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvKhuVuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvKhuVuc.Location = new System.Drawing.Point(5, 20);
-            this.dgvKhuVuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvKhuVuc.Margin = new System.Windows.Forms.Padding(2);
             this.dgvKhuVuc.Name = "dgvKhuVuc";
             this.dgvKhuVuc.RowTemplate.Height = 24;
-            this.dgvKhuVuc.Size = new System.Drawing.Size(401, 275);
+            this.dgvKhuVuc.Size = new System.Drawing.Size(401, 323);
             this.dgvKhuVuc.TabIndex = 0;
             this.dgvKhuVuc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKhuVuc_CellContentClick);
             // 
             // groupBox5
             // 
+            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.Controls.Add(this.btnClearBan);
             this.groupBox5.Controls.Add(this.btnLuuBan);
             this.groupBox5.Controls.Add(this.btnSuaBan);
@@ -445,10 +455,10 @@
             this.groupBox5.Controls.Add(this.label11);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.Location = new System.Drawing.Point(772, 10);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox5.Size = new System.Drawing.Size(412, 254);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox5.Size = new System.Drawing.Size(521, 254);
             this.groupBox5.TabIndex = 0;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Thông tin bàn";
@@ -460,7 +470,7 @@
             this.btnClearBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearBan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnClearBan.Location = new System.Drawing.Point(155, 198);
-            this.btnClearBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnClearBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnClearBan.Name = "btnClearBan";
             this.btnClearBan.Size = new System.Drawing.Size(69, 34);
             this.btnClearBan.TabIndex = 6;
@@ -474,7 +484,7 @@
             this.btnLuuBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuBan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnLuuBan.Location = new System.Drawing.Point(246, 198);
-            this.btnLuuBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLuuBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuuBan.Name = "btnLuuBan";
             this.btnLuuBan.Size = new System.Drawing.Size(56, 34);
             this.btnLuuBan.TabIndex = 6;
@@ -487,8 +497,8 @@
             this.btnSuaBan.BackColor = System.Drawing.Color.Navy;
             this.btnSuaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaBan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSuaBan.Location = new System.Drawing.Point(276, 160);
-            this.btnSuaBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSuaBan.Location = new System.Drawing.Point(290, 162);
+            this.btnSuaBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnSuaBan.Name = "btnSuaBan";
             this.btnSuaBan.Size = new System.Drawing.Size(56, 32);
             this.btnSuaBan.TabIndex = 6;
@@ -501,8 +511,8 @@
             this.btnXoaBan.BackColor = System.Drawing.Color.Navy;
             this.btnXoaBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaBan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXoaBan.Location = new System.Drawing.Point(202, 160);
-            this.btnXoaBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXoaBan.Location = new System.Drawing.Point(220, 160);
+            this.btnXoaBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoaBan.Name = "btnXoaBan";
             this.btnXoaBan.Size = new System.Drawing.Size(56, 32);
             this.btnXoaBan.TabIndex = 6;
@@ -515,7 +525,7 @@
             this.btnThemBan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemBan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnThemBan.Location = new System.Drawing.Point(119, 160);
-            this.btnThemBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThemBan.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemBan.Name = "btnThemBan";
             this.btnThemBan.Size = new System.Drawing.Size(64, 32);
             this.btnThemBan.TabIndex = 6;
@@ -526,7 +536,7 @@
             // txtTrangThai
             // 
             this.txtTrangThai.Location = new System.Drawing.Point(119, 103);
-            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTrangThai.Margin = new System.Windows.Forms.Padding(2);
             this.txtTrangThai.Name = "txtTrangThai";
             this.txtTrangThai.Size = new System.Drawing.Size(242, 26);
             this.txtTrangThai.TabIndex = 5;
@@ -534,7 +544,7 @@
             // txtTenBan
             // 
             this.txtTenBan.Location = new System.Drawing.Point(119, 67);
-            this.txtTenBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtTenBan.Margin = new System.Windows.Forms.Padding(2);
             this.txtTenBan.Name = "txtTenBan";
             this.txtTenBan.Size = new System.Drawing.Size(242, 26);
             this.txtTenBan.TabIndex = 4;
@@ -542,7 +552,7 @@
             // txtMaBan
             // 
             this.txtMaBan.Location = new System.Drawing.Point(119, 30);
-            this.txtMaBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMaBan.Margin = new System.Windows.Forms.Padding(2);
             this.txtMaBan.Name = "txtMaBan";
             this.txtMaBan.Size = new System.Drawing.Size(242, 26);
             this.txtMaBan.TabIndex = 3;
@@ -579,41 +589,47 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox6.Controls.Add(this.dgvBan);
             this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox6.Location = new System.Drawing.Point(772, 273);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox6.Size = new System.Drawing.Size(412, 301);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Size = new System.Drawing.Size(521, 347);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Danh sách bàn";
             // 
             // dgvBan
             // 
+            this.dgvBan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvBan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvBan.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvBan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvBan.Location = new System.Drawing.Point(5, 20);
-            this.dgvBan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvBan.Margin = new System.Windows.Forms.Padding(2);
             this.dgvBan.Name = "dgvBan";
             this.dgvBan.RowTemplate.Height = 24;
-            this.dgvBan.Size = new System.Drawing.Size(402, 275);
+            this.dgvBan.Size = new System.Drawing.Size(508, 321);
             this.dgvBan.TabIndex = 0;
             // 
             // frmQuanLyLoaiBan_KhuVuc_Ban
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1191, 585);
+            this.ClientSize = new System.Drawing.Size(1300, 624);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmQuanLyLoaiBan_KhuVuc_Ban";
             this.Text = "frmQuanLyLoaiBan_KhuVuc_Ban";
             this.Load += new System.EventHandler(this.frmQuanLyLoaiBan_KhuVuc_Ban_Load_1);

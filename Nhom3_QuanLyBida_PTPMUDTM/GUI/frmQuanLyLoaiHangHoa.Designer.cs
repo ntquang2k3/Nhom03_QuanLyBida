@@ -30,6 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnLamLoaiHH = new System.Windows.Forms.Button();
+            this.btnLuuLoaiHang = new System.Windows.Forms.Button();
             this.btnSuaLoaiHang = new System.Windows.Forms.Button();
             this.btnXoaLoaiHang = new System.Windows.Forms.Button();
             this.btnThemLoaiHang = new System.Windows.Forms.Button();
@@ -43,9 +44,12 @@
             this.dgvLoaiHangHoa = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.btnLamMoiHH = new System.Windows.Forms.Button();
+            this.btnLuuHH = new System.Windows.Forms.Button();
             this.btnSuaHH = new System.Windows.Forms.Button();
             this.btnXoaHH = new System.Windows.Forms.Button();
+            this.btnThemAnh = new System.Windows.Forms.Button();
             this.btnThemHH = new System.Windows.Forms.Button();
+            this.imgSanPham = new System.Windows.Forms.PictureBox();
             this.txtHinhAnh = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -57,17 +61,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.aaaa = new System.Windows.Forms.GroupBox();
             this.dgvHangHoa = new System.Windows.Forms.DataGridView();
-            this.imgSanPham = new System.Windows.Forms.PictureBox();
-            this.btnLuuLoaiHang = new System.Windows.Forms.Button();
-            this.btnLuuHH = new System.Windows.Forms.Button();
-            this.btnThemAnh = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoaiHangHoa)).BeginInit();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSanPham)).BeginInit();
             this.aaaa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvHangHoa)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgSanPham)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -104,6 +104,18 @@
             this.btnLamLoaiHH.TabIndex = 8;
             this.btnLamLoaiHH.Text = "Làm mới";
             this.btnLamLoaiHH.UseVisualStyleBackColor = false;
+            // 
+            // btnLuuLoaiHang
+            // 
+            this.btnLuuLoaiHang.BackColor = System.Drawing.Color.Navy;
+            this.btnLuuLoaiHang.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnLuuLoaiHang.Location = new System.Drawing.Point(392, 166);
+            this.btnLuuLoaiHang.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLuuLoaiHang.Name = "btnLuuLoaiHang";
+            this.btnLuuLoaiHang.Size = new System.Drawing.Size(76, 33);
+            this.btnLuuLoaiHang.TabIndex = 8;
+            this.btnLuuLoaiHang.Text = "Lưu";
+            this.btnLuuLoaiHang.UseVisualStyleBackColor = false;
             // 
             // btnSuaLoaiHang
             // 
@@ -198,6 +210,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.groupBox2.Controls.Add(this.dgvLoaiHangHoa);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(4, 296);
@@ -209,6 +223,8 @@
             // 
             // dgvLoaiHangHoa
             // 
+            this.dgvLoaiHangHoa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.dgvLoaiHangHoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvLoaiHangHoa.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvLoaiHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -219,6 +235,8 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.btnLamMoiHH);
             this.groupBox3.Controls.Add(this.btnLuuHH);
             this.groupBox3.Controls.Add(this.btnSuaHH);
@@ -255,6 +273,18 @@
             this.btnLamMoiHH.Text = "Làm mới";
             this.btnLamMoiHH.UseVisualStyleBackColor = false;
             // 
+            // btnLuuHH
+            // 
+            this.btnLuuHH.BackColor = System.Drawing.Color.Navy;
+            this.btnLuuHH.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnLuuHH.Location = new System.Drawing.Point(563, 139);
+            this.btnLuuHH.Margin = new System.Windows.Forms.Padding(2);
+            this.btnLuuHH.Name = "btnLuuHH";
+            this.btnLuuHH.Size = new System.Drawing.Size(76, 33);
+            this.btnLuuHH.TabIndex = 12;
+            this.btnLuuHH.Text = "Lưu";
+            this.btnLuuHH.UseVisualStyleBackColor = false;
+            // 
             // btnSuaHH
             // 
             this.btnSuaHH.BackColor = System.Drawing.Color.Navy;
@@ -279,6 +309,18 @@
             this.btnXoaHH.Text = "Xóa";
             this.btnXoaHH.UseVisualStyleBackColor = false;
             // 
+            // btnThemAnh
+            // 
+            this.btnThemAnh.BackColor = System.Drawing.Color.Navy;
+            this.btnThemAnh.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnThemAnh.Location = new System.Drawing.Point(375, 236);
+            this.btnThemAnh.Margin = new System.Windows.Forms.Padding(2);
+            this.btnThemAnh.Name = "btnThemAnh";
+            this.btnThemAnh.Size = new System.Drawing.Size(102, 32);
+            this.btnThemAnh.TabIndex = 9;
+            this.btnThemAnh.Text = "Thêm ảnh";
+            this.btnThemAnh.UseVisualStyleBackColor = false;
+            // 
             // btnThemHH
             // 
             this.btnThemHH.BackColor = System.Drawing.Color.Navy;
@@ -290,6 +332,16 @@
             this.btnThemHH.TabIndex = 9;
             this.btnThemHH.Text = "Thêm";
             this.btnThemHH.UseVisualStyleBackColor = false;
+            // 
+            // imgSanPham
+            // 
+            this.imgSanPham.BackgroundImage = global::GUI.Properties.Resources.logo;
+            this.imgSanPham.Location = new System.Drawing.Point(366, 78);
+            this.imgSanPham.Name = "imgSanPham";
+            this.imgSanPham.Size = new System.Drawing.Size(120, 140);
+            this.imgSanPham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imgSanPham.TabIndex = 7;
+            this.imgSanPham.TabStop = false;
             // 
             // txtHinhAnh
             // 
@@ -365,6 +417,9 @@
             // 
             // aaaa
             // 
+            this.aaaa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.aaaa.Controls.Add(this.dgvHangHoa);
             this.aaaa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aaaa.Location = new System.Drawing.Point(609, 296);
@@ -376,6 +431,9 @@
             // 
             // dgvHangHoa
             // 
+            this.dgvHangHoa.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvHangHoa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHangHoa.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvHangHoa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -384,57 +442,11 @@
             this.dgvHangHoa.Size = new System.Drawing.Size(680, 314);
             this.dgvHangHoa.TabIndex = 0;
             // 
-            // imgSanPham
-            // 
-            this.imgSanPham.BackgroundImage = global::GUI.Properties.Resources.logo;
-            this.imgSanPham.Location = new System.Drawing.Point(366, 78);
-            this.imgSanPham.Name = "imgSanPham";
-            this.imgSanPham.Size = new System.Drawing.Size(120, 140);
-            this.imgSanPham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imgSanPham.TabIndex = 7;
-            this.imgSanPham.TabStop = false;
-            // 
-            // btnLuuLoaiHang
-            // 
-            this.btnLuuLoaiHang.BackColor = System.Drawing.Color.Navy;
-            this.btnLuuLoaiHang.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLuuLoaiHang.Location = new System.Drawing.Point(392, 166);
-            this.btnLuuLoaiHang.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLuuLoaiHang.Name = "btnLuuLoaiHang";
-            this.btnLuuLoaiHang.Size = new System.Drawing.Size(76, 33);
-            this.btnLuuLoaiHang.TabIndex = 8;
-            this.btnLuuLoaiHang.Text = "Lưu";
-            this.btnLuuLoaiHang.UseVisualStyleBackColor = false;
-            // 
-            // btnLuuHH
-            // 
-            this.btnLuuHH.BackColor = System.Drawing.Color.Navy;
-            this.btnLuuHH.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLuuHH.Location = new System.Drawing.Point(563, 139);
-            this.btnLuuHH.Margin = new System.Windows.Forms.Padding(2);
-            this.btnLuuHH.Name = "btnLuuHH";
-            this.btnLuuHH.Size = new System.Drawing.Size(76, 33);
-            this.btnLuuHH.TabIndex = 12;
-            this.btnLuuHH.Text = "Lưu";
-            this.btnLuuHH.UseVisualStyleBackColor = false;
-            // 
-            // btnThemAnh
-            // 
-            this.btnThemAnh.BackColor = System.Drawing.Color.Navy;
-            this.btnThemAnh.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnThemAnh.Location = new System.Drawing.Point(375, 236);
-            this.btnThemAnh.Margin = new System.Windows.Forms.Padding(2);
-            this.btnThemAnh.Name = "btnThemAnh";
-            this.btnThemAnh.Size = new System.Drawing.Size(102, 32);
-            this.btnThemAnh.TabIndex = 9;
-            this.btnThemAnh.Text = "Thêm ảnh";
-            this.btnThemAnh.UseVisualStyleBackColor = false;
-            // 
             // frmQuanLyLoaiHangHoa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1319, 648);
+            this.ClientSize = new System.Drawing.Size(1328, 648);
             this.Controls.Add(this.aaaa);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -448,9 +460,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvLoaiHangHoa)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.imgSanPham)).EndInit();
             this.aaaa.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvHangHoa)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgSanPham)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -44,5 +44,16 @@ namespace DAL.Properties {
                 return ((string)(this["DoAnQuanLyQuanBidaConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAPTOP-5BL858OA\\PHUONGNAM;Initial Catalog=DoAnQuanLyQuanBida;User ID=" +
+            "sa;Password=123;TrustServerCertificate=True")]
+        public string DoAnQuanLyQuanBidaConnectionString1 {
+            get {
+                return ((string)(this["DoAnQuanLyQuanBidaConnectionString1"]));
+            }
+        }
     }
 }

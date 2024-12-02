@@ -9,7 +9,7 @@ namespace DAL
 {
     public class LoaiKhachHangDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<LOAIKH> GetListLoaiKhachHang()
         {
            return db.LOAIKHs.ToList();

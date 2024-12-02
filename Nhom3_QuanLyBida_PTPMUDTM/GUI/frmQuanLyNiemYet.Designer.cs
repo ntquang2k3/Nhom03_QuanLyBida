@@ -62,7 +62,10 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.btnClearNiemYet);
+            this.groupBox1.Controls.Add(this.groupBox4);
             this.groupBox1.Controls.Add(this.btnLuuNiemYet);
             this.groupBox1.Controls.Add(this.btnSuaNiemYet);
             this.groupBox1.Controls.Add(this.btnXoaNiemYet);
@@ -76,7 +79,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(459, 254);
+            this.groupBox1.Size = new System.Drawing.Size(880, 363);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin niêm yết";
@@ -86,7 +89,7 @@
             this.btnClearNiemYet.BackColor = System.Drawing.Color.Navy;
             this.btnClearNiemYet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearNiemYet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnClearNiemYet.Location = new System.Drawing.Point(147, 186);
+            this.btnClearNiemYet.Location = new System.Drawing.Point(486, 82);
             this.btnClearNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.btnClearNiemYet.Name = "btnClearNiemYet";
             this.btnClearNiemYet.Size = new System.Drawing.Size(62, 34);
@@ -99,7 +102,7 @@
             this.btnLuuNiemYet.BackColor = System.Drawing.Color.Navy;
             this.btnLuuNiemYet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuNiemYet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLuuNiemYet.Location = new System.Drawing.Point(254, 186);
+            this.btnLuuNiemYet.Location = new System.Drawing.Point(593, 82);
             this.btnLuuNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuuNiemYet.Name = "btnLuuNiemYet";
             this.btnLuuNiemYet.Size = new System.Drawing.Size(56, 34);
@@ -112,7 +115,7 @@
             this.btnSuaNiemYet.BackColor = System.Drawing.Color.Navy;
             this.btnSuaNiemYet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaNiemYet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSuaNiemYet.Location = new System.Drawing.Point(290, 136);
+            this.btnSuaNiemYet.Location = new System.Drawing.Point(629, 32);
             this.btnSuaNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.btnSuaNiemYet.Name = "btnSuaNiemYet";
             this.btnSuaNiemYet.Size = new System.Drawing.Size(56, 32);
@@ -125,7 +128,7 @@
             this.btnXoaNiemYet.BackColor = System.Drawing.Color.Navy;
             this.btnXoaNiemYet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaNiemYet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXoaNiemYet.Location = new System.Drawing.Point(203, 136);
+            this.btnXoaNiemYet.Location = new System.Drawing.Point(542, 32);
             this.btnXoaNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoaNiemYet.Name = "btnXoaNiemYet";
             this.btnXoaNiemYet.Size = new System.Drawing.Size(56, 32);
@@ -138,7 +141,7 @@
             this.btnThemNiemYet.BackColor = System.Drawing.Color.Navy;
             this.btnThemNiemYet.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemNiemYet.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnThemNiemYet.Location = new System.Drawing.Point(89, 136);
+            this.btnThemNiemYet.Location = new System.Drawing.Point(428, 32);
             this.btnThemNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemNiemYet.Name = "btnThemNiemYet";
             this.btnThemNiemYet.Size = new System.Drawing.Size(88, 32);
@@ -184,6 +187,10 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.groupBox3);
             this.groupBox2.Controls.Add(this.cbbBan);
             this.groupBox2.Controls.Add(this.btnClearCTNY);
             this.groupBox2.Controls.Add(this.btnLuuCTNY);
@@ -194,11 +201,11 @@
             this.groupBox2.Controls.Add(this.aa);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(483, 11);
+            this.groupBox2.Location = new System.Drawing.Point(12, 391);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(459, 254);
+            this.groupBox2.Size = new System.Drawing.Size(880, 355);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi tiết niêm yết";
@@ -216,7 +223,7 @@
             this.btnClearCTNY.BackColor = System.Drawing.Color.Navy;
             this.btnClearCTNY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClearCTNY.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnClearCTNY.Location = new System.Drawing.Point(158, 186);
+            this.btnClearCTNY.Location = new System.Drawing.Point(492, 79);
             this.btnClearCTNY.Margin = new System.Windows.Forms.Padding(2);
             this.btnClearCTNY.Name = "btnClearCTNY";
             this.btnClearCTNY.Size = new System.Drawing.Size(62, 34);
@@ -229,7 +236,7 @@
             this.btnLuuCTNY.BackColor = System.Drawing.Color.Navy;
             this.btnLuuCTNY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLuuCTNY.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLuuCTNY.Location = new System.Drawing.Point(269, 186);
+            this.btnLuuCTNY.Location = new System.Drawing.Point(603, 79);
             this.btnLuuCTNY.Margin = new System.Windows.Forms.Padding(2);
             this.btnLuuCTNY.Name = "btnLuuCTNY";
             this.btnLuuCTNY.Size = new System.Drawing.Size(56, 34);
@@ -242,7 +249,7 @@
             this.btnSuaCTNY.BackColor = System.Drawing.Color.Navy;
             this.btnSuaCTNY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaCTNY.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSuaCTNY.Location = new System.Drawing.Point(306, 136);
+            this.btnSuaCTNY.Location = new System.Drawing.Point(640, 29);
             this.btnSuaCTNY.Margin = new System.Windows.Forms.Padding(2);
             this.btnSuaCTNY.Name = "btnSuaCTNY";
             this.btnSuaCTNY.Size = new System.Drawing.Size(56, 32);
@@ -255,7 +262,7 @@
             this.btnXoaCTNY.BackColor = System.Drawing.Color.Navy;
             this.btnXoaCTNY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaCTNY.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnXoaCTNY.Location = new System.Drawing.Point(218, 136);
+            this.btnXoaCTNY.Location = new System.Drawing.Point(552, 29);
             this.btnXoaCTNY.Margin = new System.Windows.Forms.Padding(2);
             this.btnXoaCTNY.Name = "btnXoaCTNY";
             this.btnXoaCTNY.Size = new System.Drawing.Size(56, 32);
@@ -268,7 +275,7 @@
             this.btnThemCTNY.BackColor = System.Drawing.Color.Navy;
             this.btnThemCTNY.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThemCTNY.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnThemCTNY.Location = new System.Drawing.Point(92, 136);
+            this.btnThemCTNY.Location = new System.Drawing.Point(426, 29);
             this.btnThemCTNY.Margin = new System.Windows.Forms.Padding(2);
             this.btnThemCTNY.Name = "btnThemCTNY";
             this.btnThemCTNY.Size = new System.Drawing.Size(88, 32);
@@ -307,44 +314,56 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.dgvNiemYet);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(11, 269);
+            this.groupBox4.Location = new System.Drawing.Point(4, 139);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(459, 301);
+            this.groupBox4.Size = new System.Drawing.Size(872, 220);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Danh sách niêm yết";
             // 
             // dgvNiemYet
             // 
+            this.dgvNiemYet.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvNiemYet.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvNiemYet.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvNiemYet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvNiemYet.Location = new System.Drawing.Point(5, 20);
+            this.dgvNiemYet.Location = new System.Drawing.Point(5, 23);
             this.dgvNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.dgvNiemYet.Name = "dgvNiemYet";
             this.dgvNiemYet.RowTemplate.Height = 24;
-            this.dgvNiemYet.Size = new System.Drawing.Size(450, 275);
+            this.dgvNiemYet.Size = new System.Drawing.Size(863, 193);
             this.dgvNiemYet.TabIndex = 0;
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.dgvChiTietNiemYet);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(483, 269);
+            this.groupBox3.Location = new System.Drawing.Point(8, 126);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(459, 301);
+            this.groupBox3.Size = new System.Drawing.Size(863, 225);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Chi tiết niêm yết";
             // 
             // dgvChiTietNiemYet
             // 
+            this.dgvChiTietNiemYet.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvChiTietNiemYet.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvChiTietNiemYet.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvChiTietNiemYet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -352,16 +371,14 @@
             this.dgvChiTietNiemYet.Margin = new System.Windows.Forms.Padding(2);
             this.dgvChiTietNiemYet.Name = "dgvChiTietNiemYet";
             this.dgvChiTietNiemYet.RowTemplate.Height = 24;
-            this.dgvChiTietNiemYet.Size = new System.Drawing.Size(450, 275);
+            this.dgvChiTietNiemYet.Size = new System.Drawing.Size(854, 201);
             this.dgvChiTietNiemYet.TabIndex = 0;
             // 
             // frmQuanLyNiemYet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(958, 575);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox4);
+            this.ClientSize = new System.Drawing.Size(903, 757);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "frmQuanLyNiemYet";

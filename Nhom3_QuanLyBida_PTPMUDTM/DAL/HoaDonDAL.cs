@@ -8,99 +8,14 @@ namespace DAL
 {
     public class HoaDonDAL
     {
-        private DbConnectDataContext dbContext;
+        private QuanLyBidaDataContext dbContext;
 
         public HoaDonDAL()
         {
-            dbContext = new DbConnectDataContext();
+            dbContext = new QuanLyBidaDataContext();
         }
 
-        public IQueryable<dynamic> GetHoaDonForGridView()
-        {
-            var query = from hd in dbContext.HOADONs
-                        join b in dbContext.BANs on hd.MaBan equals b.MaBan
-                        select new
-                        {
-                            ID = hd.MaHDBH,
-                            MaKH = hd.MaKH,
-                            MaNV = hd.MaNV,
-                            MaBan = hd.MaBan,
-                            TenBan = b.TenBan,
-                            ThoiGianVao = hd.ThoiGianVao,
-                            ThoiGianRa = hd.ThoiGianRa,
-                            NgayXuatHD = hd.NgayXuatHD,
-                            TienDatCoc = hd.TienDatCoc,
-                            TienThanhToan = hd.SoTienThanhToan,
-                            GiamGia = hd.GiamGia,
-                            TongTien = hd.TongTien
-                        };
-
-            return query;
-        }
-        public IQueryable<dynamic> GetHoaDonFiltered(string maBan, string maNhanVien, bool? datCoc, DateTime? ngayChoi)
-        {
-            var query = from hd in dbContext.HOADONs
-                        join b in dbContext.BANs on hd.MaBan equals b.MaBan
-                        join nv in dbContext.NHANVIENs on hd.MaNV equals nv.MaNV
-                        select new
-                        {
-                            ID = hd.MaHDBH,
-                            MaKH = hd.MaKH,
-                            MaNV = hd.MaNV,
-                            MaBan = hd.MaBan,
-
-                            TenBan = b.TenBan,
-                            ThoiGianVao = hd.ThoiGianVao,
-                            ThoiGianRa = hd.ThoiGianRa,
-                            NgayXuatHD = hd.NgayXuatHD,
-                            TienDatCoc = hd.TienDatCoc,
-                            TienThanhToan = hd.SoTienThanhToan,
-                            GiamGia = hd.GiamGia,
-                            TongTien = hd.TongTien
-                        };
-
-            // Áp dụng các bộ lọc dựa trên giá trị của ComboBox
-            if (!string.IsNullOrEmpty(maBan))
-            {
-                query = query.Where(h => h.MaBan == maBan);
-            }
-
-            if (!string.IsNullOrEmpty(maNhanVien))
-            {
-                query = query.Where(h => h.MaNV == maNhanVien);
-            }
-
-            if (datCoc.HasValue)
-            {
-                query = query.Where(h => (datCoc.Value && h.TienDatCoc > 0) || (!datCoc.Value && h.TienDatCoc == 0));
-            }
-            if (ngayChoi.HasValue)
-            {
-                query = query.Where(h => h.NgayXuatHD == ngayChoi.Value.Date);
-            }
-            return query;
-        }
-        public IQueryable<dynamic> LayDanhSachNhanVien()
-        {
-            return from nv in dbContext.NHANVIENs
-                   select new
-                   {
-                       MaNV = nv.MaNV,
-                       TenNV = nv.TenNV
-                   };
-        }
-
-        // Lấy danh sách bàn
-        public IQueryable<dynamic> LayDanhSachBan()
-        {
-            return from b in dbContext.BANs
-                   select new
-                   {
-                       MaBan = b.MaBan,
-                       TenBan = b.TenBan
-                   };
-        }
-
+       
         public bool XoaHoaDon(int maHDBH)
         {
             try

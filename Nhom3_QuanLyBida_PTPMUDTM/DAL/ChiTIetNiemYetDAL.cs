@@ -8,7 +8,7 @@ namespace DAL
 {
     public class ChiTIetNiemYetDAL
     {
-        private DbConnectDataContext dbContext = new DbConnectDataContext();
+        private QuanLyBidaDataContext dbContext = new QuanLyBidaDataContext();
         public List<ChiTietNiemYetBan> GetListChiTIetNiemYet()
         {
             return dbContext.ChiTietNiemYetBans.ToList();

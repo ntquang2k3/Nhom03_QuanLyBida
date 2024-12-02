@@ -45,23 +45,15 @@ namespace GUI
                 string maLoaiKH = cbbLoaiKhachHang.SelectedValue.ToString();
                 string diaChi = txtDiaChi.Text;
                 string soDienThoai = txtSDT.Text;
-                string matKhau = txtMatKhau.Text;
 
                 if (string.IsNullOrEmpty(maKH) || string.IsNullOrEmpty(tenKH) ||
                     string.IsNullOrEmpty(maLoaiKH) || string.IsNullOrEmpty(diaChi) ||
-                    string.IsNullOrEmpty(soDienThoai) || string.IsNullOrEmpty(matKhau))
+                    string.IsNullOrEmpty(soDienThoai) )
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin khách hàng.");
                     return;
                 }
-                if (txtHoatDong.Text == "Không hoạt động") // Phân biệt hoa/thường
-                {
-                    txtHoatDong.Text = "0";
-                }
-                else
-                {
-                    txtHoatDong.Text = "1";
-                }
+               
 
                 if (!int.TryParse(txtDiemTL.Text, out int diemTL) || diemTL < 0)
                 {
@@ -69,11 +61,7 @@ namespace GUI
                     return;
                 }
 
-                if (!int.TryParse(txtHoatDong.Text, out int hoatDong))
-                {
-                    MessageBox.Show("Hoạt động không hợp lệ.");
-                    return;
-                }
+                int hoatDong = int.Parse(cbbHoatDong.SelectedValue.ToString());
 
                 KHACHHANG newKhachHang = new KHACHHANG
                 {
@@ -83,7 +71,7 @@ namespace GUI
                     DiaChi = diaChi,
                     DiemTichLuy = diemTL,
                     SDT = soDienThoai,
-                    MatKhau = matKhau,
+                   // MatKhau = "123",
                     HoatDong = hoatDong
                 };
 
@@ -91,7 +79,8 @@ namespace GUI
 
                 if (isSuccess)
                 {
-                    MessageBox.Show("Cập nhật thành công!");
+                    MessageBox.Show("Cập nhật thành công!"); 
+                    btnLamMoi.Enabled = false;
                     loadDSKhachHang();
                 }
                 else
@@ -153,13 +142,9 @@ namespace GUI
                 string maLoaiKH = cbbLoaiKhachHang.SelectedValue.ToString();
                 string diaChi = txtDiaChi.Text;
                 string soDienThoai = txtSDT.Text;
-                string matKhau = txtMatKhau.Text;
 
-
-
-                if (string.IsNullOrEmpty(maKH) || string.IsNullOrEmpty(tenKH) || string.IsNullOrEmpty(maLoaiKH) ||
-                    string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai) || 
-                    string.IsNullOrEmpty(matKhau))
+               if (string.IsNullOrEmpty(maKH) || string.IsNullOrEmpty(tenKH) || string.IsNullOrEmpty(maLoaiKH) ||
+                    string.IsNullOrEmpty(diaChi) || string.IsNullOrEmpty(soDienThoai) )
 
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin khách hàng.");
@@ -171,11 +156,8 @@ namespace GUI
                     return;
                 }
 
-                if (!int.TryParse(txtHoatDong.Text, out int hoatDong) || hoatDong <= 0)
-                {
-                    MessageBox.Show("Hoạt động không hợp lệ!");
-                    return;
-                }
+                int hoatDong = int.Parse(cbbHoatDong.SelectedValue.ToString());
+                
                 KHACHHANG newKhacHang = new KHACHHANG
 
                 {
@@ -185,7 +167,7 @@ namespace GUI
                     DiaChi = diaChi,
                     DiemTichLuy = diemTL,
                     SDT = soDienThoai,
-                    MatKhau = matKhau,
+                    MatKhau = "123",
                     HoatDong = hoatDong
 
                 };
@@ -217,8 +199,8 @@ namespace GUI
             txtDiemTL.Clear();
             txtDiaChi.Clear();
             loadComboBoxLoaiKH();
-            txtMatKhau.Clear();
-            txtHoatDong.Clear();
+
+            loadCbbHoatDong();
             txtMaKH.Enabled = true;
         }
 
@@ -233,18 +215,14 @@ namespace GUI
                 txtDiemTL.Text = currentRow.Cells["DiemTL"].Value?.ToString();
                 txtDiaChi.Text = currentRow.Cells["DiaChi"].Value?.ToString();
                 txtSDT.Text = currentRow.Cells["SDT"].Value?.ToString();
-                txtMatKhau.Text = currentRow.Cells["MatKhau"].Value?.ToString();
-                var cellValue = currentRow.Cells["HoatDong"].Value?.ToString();
-                if (cellValue != null && int.TryParse(cellValue.ToString(), out int hoatDong))
+                string hoatDong = currentRow.Cells["HoatDong"].Value?.ToString();
+                if (hoatDong == "1")
                 {
-                    if (hoatDong == 0)
-                    {
-                        txtHoatDong.Text = "Không hoạt động";
-                    }
-                    else
-                    {
-                        txtHoatDong.Text = "Hoạt động";
-                    }
+                    cbbHoatDong.SelectedValue = 1;
+                }
+                else
+                {
+                    cbbHoatDong.SelectedValue = 0;
                 }
                 loadDSHoaDon(txtMaKH.Text);
 
@@ -258,9 +236,32 @@ namespace GUI
         private void FrmQuanLyKhachHang_Load(object sender, EventArgs e)
         {
             loadDSKhachHang();
-            
+            loadCbbHoatDong();
             loadComboBoxLoaiKH();
             btnLuu.Enabled = false;
+        }
+
+        private void loadCbbHoatDong()
+        {
+            try
+            {
+
+                var danhSachTrangThai = new List<object>
+                {
+                    new { MaHoatDong = 1, TenHoatDong = "Hoạt động" },
+                    new { MaHoatDong = 0, TenHoatDong = "Không hoạt động" }
+                };
+
+                cbbHoatDong.DataSource = danhSachTrangThai;
+                cbbHoatDong.ValueMember = "MaHoatDong";
+                cbbHoatDong.DisplayMember = "TenHoatDong";
+                cbbHoatDong.DropDownStyle = ComboBoxStyle.DropDownList;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải danh sách Bàn: " + ex.Message);
+            }
         }
 
         private void loadComboBoxLoaiKH()
@@ -385,7 +386,8 @@ namespace GUI
                     dgvKhachHang.Columns["DiaChi"].HeaderText = "Địa chỉ";
                     dgvKhachHang.Columns["SDT"].HeaderText = "Số điện thoại";
                     dgvKhachHang.Columns["DiemTL"].HeaderText = "Điểm tích lũy";
-                    dgvKhachHang.Columns["MatKhau"].HeaderText = "Mật khẩu";
+                    dgvKhachHang.Columns["MatKhau"].Visible = false;
+
                     dgvKhachHang.Columns["HoatDong"].HeaderText = "Hoạt động";
 
                     // Căn giữa tiêu đề cột và chỉnh font chữ
@@ -448,10 +450,10 @@ namespace GUI
 
         private void txtHoatDong_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
-            {
-                e.Handled = true;
-            }
+            //if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            //{
+            //    e.Handled = true;
+            //}
         }
     }
 }

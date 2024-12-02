@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DoAnQuanLyQuanBida" Class="DbConnectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-5BL858OA\PHUONGNAM;Initial Catalog=DoAnQuanLyQuanBida;User ID=sa;Encrypt=True;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="DoAnQuanLyQuanBidaConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DoAnQuanLyQuanBida" Class="QuanLyBidaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-5BL858OA\PHUONGNAM;Initial Catalog=DoAnQuanLyQuanBida;User ID=sa;Trust Server Certificate=True" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="DoAnQuanLyQuanBidaConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.BAN" Member="BANs">
     <Type Name="BAN">
       <Column Name="MaBan" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -13,11 +13,11 @@
   </Table>
   <Table Name="dbo.QL_PhanQuyen" Member="QL_PhanQuyens">
     <Type Name="QL_PhanQuyen">
-      <Column Name="MaNhomNguoiDung" Type="System.String" DbType="Char(10)" CanBeNull="true" />
-      <Column Name="MaManHinh" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="MaNhomNguoiDung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaManHinh" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="CoQuyen" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Association Name="DM_ManHinh_QL_PhanQuyen" Member="DM_ManHinh" ThisKey="MaManHinh" OtherKey="MaManHinh" Type="DM_ManHinh" IsForeignKey="true" />
-      <Association Name="QL_NhomNguoiDung_QL_PhanQuyen" Member="QL_NhomNguoiDung" ThisKey="MaNhomNguoiDung" OtherKey="MaNhom" Type="QL_NhomNguoiDung" IsForeignKey="true" />
+      <Association Name="DanhMucManHinh_QL_PhanQuyen" Member="DanhMucManHinh" ThisKey="MaManHinh" OtherKey="MaManHinh" Type="DanhMucManHinh" IsForeignKey="true" />
+      <Association Name="QL_NhomNguoiDung_QL_PhanQuyen" Member="QL_NhomNguoiDung" ThisKey="MaNhomNguoiDung" OtherKey="MaNhomNguoiDung" Type="QL_NhomNguoiDung" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.bangthongke" Member="bangthongkes">
@@ -45,11 +45,11 @@
       <Association Name="NiemYet_ChiTietNiemYetBan" Member="NiemYet" ThisKey="MaNiemYet" OtherKey="MaNiemYet" Type="NiemYet" IsForeignKey="true" />
     </Type>
   </Table>
-  <Table Name="dbo.DM_ManHinh" Member="DM_ManHinhs">
-    <Type Name="DM_ManHinh">
-      <Column Name="MaManHinh" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="TenManHinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="DM_ManHinh_QL_PhanQuyen" Member="QL_PhanQuyens" ThisKey="MaManHinh" OtherKey="MaManHinh" Type="QL_PhanQuyen" />
+  <Table Name="dbo.DanhMucManHinh" Member="DanhMucManHinhs">
+    <Type Name="DanhMucManHinh">
+      <Column Name="MaManHinh" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenManHinh" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="DanhMucManHinh_QL_PhanQuyen" Member="QL_PhanQuyens" ThisKey="MaManHinh" OtherKey="MaManHinh" Type="QL_PhanQuyen" />
     </Type>
   </Table>
   <Table Name="dbo.HANGHOA" Member="HANGHOAs">
@@ -144,7 +144,7 @@
       <Column Name="MatKhau" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
       <Column Name="HoatDong" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Association Name="NHANVIEN_HOADON" Member="HOADONs" ThisKey="MaNV" OtherKey="MaNV" Type="HOADON" />
-      <Association Name="NHANVIEN_QL_NguoiDungNhomNguoiDung" Member="QL_NguoiDungNhomNguoiDungs" ThisKey="MaNV" OtherKey="TenDangNhap" Type="QL_NguoiDungNhomNguoiDung" />
+      <Association Name="NHANVIEN_QL_NhanVien_NhomNguoiDung" Member="QL_NhanVien_NhomNguoiDungs" ThisKey="MaNV" OtherKey="MaNV" Type="QL_NhanVien_NhomNguoiDung" />
     </Type>
   </Table>
   <Table Name="dbo.NiemYet" Member="NiemYets">
@@ -154,22 +154,22 @@
       <Association Name="NiemYet_ChiTietNiemYetBan" Member="ChiTietNiemYetBans" ThisKey="MaNiemYet" OtherKey="MaNiemYet" Type="ChiTietNiemYetBan" />
     </Type>
   </Table>
-  <Table Name="dbo.QL_NguoiDungNhomNguoiDung" Member="QL_NguoiDungNhomNguoiDungs">
-    <Type Name="QL_NguoiDungNhomNguoiDung">
-      <Column Name="TenDangNhap" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="MaNhomNguoiDung" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="NHANVIEN_QL_NguoiDungNhomNguoiDung" Member="NHANVIEN" ThisKey="TenDangNhap" OtherKey="MaNV" Type="NHANVIEN" IsForeignKey="true" />
-      <Association Name="QL_NhomNguoiDung_QL_NguoiDungNhomNguoiDung" Member="QL_NhomNguoiDung" ThisKey="MaNhomNguoiDung" OtherKey="MaNhom" Type="QL_NhomNguoiDung" IsForeignKey="true" />
+  <Table Name="dbo.QL_NhanVien_NhomNguoiDung" Member="QL_NhanVien_NhomNguoiDungs">
+    <Type Name="QL_NhanVien_NhomNguoiDung">
+      <Column Name="MaNV" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaNhomNguoiDung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="NHANVIEN_QL_NhanVien_NhomNguoiDung" Member="NHANVIEN" ThisKey="MaNV" OtherKey="MaNV" Type="NHANVIEN" IsForeignKey="true" />
+      <Association Name="QL_NhomNguoiDung_QL_NhanVien_NhomNguoiDung" Member="QL_NhomNguoiDung" ThisKey="MaNhomNguoiDung" OtherKey="MaNhomNguoiDung" Type="QL_NhomNguoiDung" IsForeignKey="true" />
     </Type>
   </Table>
   <Table Name="dbo.QL_NhomNguoiDung" Member="QL_NhomNguoiDungs">
     <Type Name="QL_NhomNguoiDung">
-      <Column Name="MaNhom" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="TenNhom" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="QL_NhomNguoiDung_QL_PhanQuyen" Member="QL_PhanQuyens" ThisKey="MaNhom" OtherKey="MaNhomNguoiDung" Type="QL_PhanQuyen" />
-      <Association Name="QL_NhomNguoiDung_QL_NguoiDungNhomNguoiDung" Member="QL_NguoiDungNhomNguoiDungs" ThisKey="MaNhom" OtherKey="MaNhomNguoiDung" Type="QL_NguoiDungNhomNguoiDung" />
+      <Column Name="MaNhomNguoiDung" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNhomNguoiDung" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="GhiChu" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Association Name="QL_NhomNguoiDung_QL_PhanQuyen" Member="QL_PhanQuyens" ThisKey="MaNhomNguoiDung" OtherKey="MaNhomNguoiDung" Type="QL_PhanQuyen" />
+      <Association Name="QL_NhomNguoiDung_QL_NhanVien_NhomNguoiDung" Member="QL_NhanVien_NhomNguoiDungs" ThisKey="MaNhomNguoiDung" OtherKey="MaNhomNguoiDung" Type="QL_NhanVien_NhomNguoiDung" />
     </Type>
   </Table>
 </Database>

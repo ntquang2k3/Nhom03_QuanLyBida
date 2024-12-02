@@ -538,6 +538,8 @@ namespace GUI
         {
             loadDSLoaiHangHoa();
             txtHinhAnh.Enabled = false;
+            btnLuuHH.Enabled = false;
+            btnLuuLoaiHang.Enabled = false;
         }
 
         private void loadDSLoaiHangHoa()

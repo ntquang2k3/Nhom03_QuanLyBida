@@ -8,7 +8,7 @@ namespace DAL
 {
     public class LoaiBanDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<LoaiBan> GetListLoaiBan()
         {
             return db.LoaiBans.ToList();

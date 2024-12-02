@@ -8,7 +8,7 @@ namespace DAL
 {
     public class LoaiHangHoaDAL
     {
-        private DbConnectDataContext dbContext = new DbConnectDataContext();
+        private QuanLyBidaDataContext dbContext = new QuanLyBidaDataContext();
         public List<LOAIHH> LayDanhSachLoaiHangHoa()
         {
             return dbContext.LOAIHHs.ToList();

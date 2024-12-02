@@ -8,7 +8,7 @@ namespace DAL
 {
     public class NhanVienDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<NHANVIEN> GetListNhanVien()
         {
             return db.NHANVIENs.ToList();

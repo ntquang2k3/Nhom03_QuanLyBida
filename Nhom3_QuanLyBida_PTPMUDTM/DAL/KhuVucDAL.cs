@@ -8,7 +8,7 @@ namespace DAL
 {
     public class KhuVucDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<KHUVUC> GetListKhuVuc()
         {
             return db.KHUVUCs.ToList();

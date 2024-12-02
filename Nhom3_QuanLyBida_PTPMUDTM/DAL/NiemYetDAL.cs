@@ -8,7 +8,7 @@ namespace DAL
 {
     public class NiemYetDAL
     {
-        private DbConnectDataContext db = new DbConnectDataContext();
+        private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<NiemYet> GetListNiemYet()
         {
             return db.NiemYets.ToList();

@@ -29,20 +29,18 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbbLoaiKhachHang = new System.Windows.Forms.ComboBox();
             this.btnLamMoi = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
-            this.txtHoatDong = new System.Windows.Forms.TextBox();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
-            this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.txtDiemTL = new System.Windows.Forms.TextBox();
             this.txtSDT = new System.Windows.Forms.TextBox();
             this.txtTenKH = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtMaKH = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.aa = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -53,7 +51,7 @@
             this.dgvKhachHang = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.dgvHoaDon = new System.Windows.Forms.DataGridView();
-            this.cbbLoaiKhachHang = new System.Windows.Forms.ComboBox();
+            this.cbbHoatDong = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvKhachHang)).BeginInit();
@@ -63,21 +61,21 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.cbbHoatDong);
             this.groupBox1.Controls.Add(this.cbbLoaiKhachHang);
             this.groupBox1.Controls.Add(this.btnLamMoi);
             this.groupBox1.Controls.Add(this.btnLuu);
             this.groupBox1.Controls.Add(this.btnSua);
             this.groupBox1.Controls.Add(this.btnXoa);
             this.groupBox1.Controls.Add(this.btnThem);
-            this.groupBox1.Controls.Add(this.txtHoatDong);
             this.groupBox1.Controls.Add(this.txtDiaChi);
-            this.groupBox1.Controls.Add(this.txtMatKhau);
             this.groupBox1.Controls.Add(this.txtDiemTL);
             this.groupBox1.Controls.Add(this.txtSDT);
             this.groupBox1.Controls.Add(this.txtTenKH);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.txtMaKH);
-            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.aa);
             this.groupBox1.Controls.Add(this.label3);
@@ -91,6 +89,14 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin khách hàng";
+            // 
+            // cbbLoaiKhachHang
+            // 
+            this.cbbLoaiKhachHang.FormattingEnabled = true;
+            this.cbbLoaiKhachHang.Location = new System.Drawing.Point(624, 126);
+            this.cbbLoaiKhachHang.Name = "cbbLoaiKhachHang";
+            this.cbbLoaiKhachHang.Size = new System.Drawing.Size(223, 28);
+            this.cbbLoaiKhachHang.TabIndex = 14;
             // 
             // btnLamMoi
             // 
@@ -157,32 +163,17 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
             // 
-            // txtHoatDong
-            // 
-            this.txtHoatDong.Location = new System.Drawing.Point(621, 168);
-            this.txtHoatDong.Name = "txtHoatDong";
-            this.txtHoatDong.Size = new System.Drawing.Size(223, 26);
-            this.txtHoatDong.TabIndex = 4;
-            this.txtHoatDong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtHoatDong_KeyPress);
-            // 
             // txtDiaChi
             // 
-            this.txtDiaChi.Location = new System.Drawing.Point(182, 174);
+            this.txtDiaChi.Location = new System.Drawing.Point(182, 135);
             this.txtDiaChi.Multiline = true;
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Size = new System.Drawing.Size(223, 49);
             this.txtDiaChi.TabIndex = 4;
             // 
-            // txtMatKhau
-            // 
-            this.txtMatKhau.Location = new System.Drawing.Point(621, 122);
-            this.txtMatKhau.Name = "txtMatKhau";
-            this.txtMatKhau.Size = new System.Drawing.Size(223, 26);
-            this.txtMatKhau.TabIndex = 4;
-            // 
             // txtDiemTL
             // 
-            this.txtDiemTL.Location = new System.Drawing.Point(621, 76);
+            this.txtDiemTL.Location = new System.Drawing.Point(624, 81);
             this.txtDiemTL.Name = "txtDiemTL";
             this.txtDiemTL.Size = new System.Drawing.Size(223, 26);
             this.txtDiemTL.TabIndex = 4;
@@ -190,7 +181,7 @@
             // 
             // txtSDT
             // 
-            this.txtSDT.Location = new System.Drawing.Point(621, 30);
+            this.txtSDT.Location = new System.Drawing.Point(624, 36);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(223, 26);
             this.txtSDT.TabIndex = 4;
@@ -218,19 +209,10 @@
             this.txtMaKH.Size = new System.Drawing.Size(223, 26);
             this.txtMaKH.TabIndex = 4;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(484, 128);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 20);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Mật khẩu";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 177);
+            this.label4.Location = new System.Drawing.Point(21, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 20);
             this.label4.TabIndex = 3;
@@ -248,7 +230,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 131);
+            this.label3.Location = new System.Drawing.Point(484, 123);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(126, 20);
             this.label3.TabIndex = 2;
@@ -283,6 +265,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.dgvKhachHang);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(13, 293);
@@ -294,6 +279,9 @@
             // 
             // dgvKhachHang
             // 
+            this.dgvKhachHang.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvKhachHang.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvKhachHang.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvKhachHang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -304,6 +292,9 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.dgvHoaDon);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(12, 523);
@@ -315,6 +306,10 @@
             // 
             // dgvHoaDon
             // 
+            this.dgvHoaDon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvHoaDon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvHoaDon.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvHoaDon.Location = new System.Drawing.Point(7, 25);
@@ -322,13 +317,13 @@
             this.dgvHoaDon.Size = new System.Drawing.Size(934, 253);
             this.dgvHoaDon.TabIndex = 0;
             // 
-            // cbbLoaiKhachHang
+            // cbbHoatDong
             // 
-            this.cbbLoaiKhachHang.FormattingEnabled = true;
-            this.cbbLoaiKhachHang.Location = new System.Drawing.Point(182, 128);
-            this.cbbLoaiKhachHang.Name = "cbbLoaiKhachHang";
-            this.cbbLoaiKhachHang.Size = new System.Drawing.Size(223, 28);
-            this.cbbLoaiKhachHang.TabIndex = 14;
+            this.cbbHoatDong.FormattingEnabled = true;
+            this.cbbHoatDong.Location = new System.Drawing.Point(624, 172);
+            this.cbbHoatDong.Name = "cbbHoatDong";
+            this.cbbHoatDong.Size = new System.Drawing.Size(223, 28);
+            this.cbbHoatDong.TabIndex = 15;
             // 
             // frmQuanLyKhachHang
             // 
@@ -358,15 +353,12 @@
         private System.Windows.Forms.Button btnSua;
         private System.Windows.Forms.Button btnXoa;
         private System.Windows.Forms.Button btnThem;
-        private System.Windows.Forms.TextBox txtHoatDong;
         private System.Windows.Forms.TextBox txtDiaChi;
-        private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.TextBox txtDiemTL;
         private System.Windows.Forms.TextBox txtSDT;
         private System.Windows.Forms.TextBox txtTenKH;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtMaKH;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label aa;
         private System.Windows.Forms.Label label3;
@@ -378,5 +370,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView dgvHoaDon;
         private System.Windows.Forms.ComboBox cbbLoaiKhachHang;
+        private System.Windows.Forms.ComboBox cbbHoatDong;
     }
 }

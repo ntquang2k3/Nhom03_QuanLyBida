@@ -53,8 +53,8 @@ namespace GUI
                 string maBan = txtMaBan.Text;
                 string tenBan = txtTenBan.Text;
                 string trangThai = txtTrangThai.Text;
-                string maKV = txtMaKV.Text;
-                if (string.IsNullOrEmpty(maBan) || string.IsNullOrEmpty(tenBan) || string.IsNullOrEmpty(trangThai) || string.IsNullOrEmpty(maKV))
+                //string maKV = txtMaKV.Text;
+                if (string.IsNullOrEmpty(maBan) || string.IsNullOrEmpty(tenBan) || string.IsNullOrEmpty(trangThai))
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin Bàn.");
                     return;
@@ -62,7 +62,7 @@ namespace GUI
                 BAN newBan = new BAN
                 {
                     MaBan = maBan,
-                    MaKV = maKV,
+                    //MaKV = maKV,
                     TenBan = tenBan,
                     TrangThai = trangThai
 
@@ -71,7 +71,8 @@ namespace GUI
                 if (isSuccess)
                 {
                     MessageBox.Show("Bàn mới đã được thêm thành công!");
-                    loadDSBanTheoKhuVuc(maKV);
+                    loadDSBanTheoKhuVuc(txtMaKV.Text);
+                    txtMaBan.Enabled = true;
                 }
                 else
                 {
@@ -265,6 +266,7 @@ namespace GUI
                 {
                     MessageBox.Show("Khu vực mới đã được cập nhật thành công!");
                     loadDSKhuVucTheoLoaiBan(maLoaiBan);
+                    txtMaKV.Enabled = true;
                     btnLuuKhuVuc.Enabled = false;
                 }
                 else
@@ -430,6 +432,7 @@ namespace GUI
                 {
                     MessageBox.Show("Loại hàng hóa đã được thêm thành công!");
                     loadDSLoaiBan();
+                    txtLoaiBan.Enabled = true;
                 }
                 else
                 {
@@ -485,10 +488,10 @@ namespace GUI
         {
             try
             {
-                string maLoai = txtLoaiBan.Text;
+                
                 string tenLoai = txtTenLoai.Text;
                 string giaGioChoi = txtGiaGioChoi.Text;
-                if (string.IsNullOrEmpty(maLoai) || string.IsNullOrEmpty(tenLoai) || string.IsNullOrEmpty(giaGioChoi))
+                if (string.IsNullOrEmpty(tenLoai) || string.IsNullOrEmpty(giaGioChoi))
 
                 {
                     MessageBox.Show("Vui lòng nhập đầy đủ thông tin loại hàng.");
@@ -497,6 +500,11 @@ namespace GUI
                 if (!int.TryParse(txtLoaiBan.Text, out int maLoaiBan) || maLoaiBan <= 0)
                 {
                     MessageBox.Show("Mã loại không hợp lệ!");
+                    return;
+                }
+                if (!int.TryParse(txtLoaiBan.Text, out int maLoai) || maLoai <= 0)
+                {
+                    MessageBox.Show("Giá không không hợp lệ!");
                     return;
                 }
                 if (!int.TryParse(txtGiaGioChoi.Text, out int gia) || gia <= 0)

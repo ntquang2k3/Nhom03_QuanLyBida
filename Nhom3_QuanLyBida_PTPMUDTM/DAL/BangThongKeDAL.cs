@@ -8,11 +8,11 @@ namespace DAL
 {
     public class BangThongKeDAL
     {
-        private DbConnectDataContext dbContext;
+        private QuanLyBidaDataContext dbContext;
 
         public BangThongKeDAL()
         {
-            dbContext = new DbConnectDataContext();
+            dbContext = new QuanLyBidaDataContext();
         }
 
         public List<bangthongke> LayDanhSachBangThongKe()
@@ -28,7 +28,7 @@ namespace DAL
         }
         public List<bangthongke> LayBangThongKeTheoNgay(DateTime ngay)
         {
-            using (var db = new DbConnectDataContext()) 
+            using (var db = new QuanLyBidaDataContext()) 
             {
                 return db.bangthongkes
                          .Where(b => b.NgayXuatHD.Date == ngay.Date)
@@ -37,7 +37,7 @@ namespace DAL
         }
         public bool XoaThongKe(DateTime ngayhd)
         {
-            using (var db = new DbConnectDataContext()) 
+            using (var db = new QuanLyBidaDataContext()) 
             {
                 var thongKe = db.bangthongkes.FirstOrDefault(b => b.NgayXuatHD == ngayhd);
                 if (thongKe == null) return false;
@@ -50,7 +50,7 @@ namespace DAL
 
         public bool SuaThongKe(bangthongke thongKe)
         {
-            using (var db = new DbConnectDataContext())
+            using (var db = new QuanLyBidaDataContext())
             {
                 var existingThongKe = db.bangthongkes.FirstOrDefault(b => b.NgayXuatHD == thongKe.NgayXuatHD); 
                 if (existingThongKe == null) return false;

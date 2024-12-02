@@ -16,23 +16,7 @@ namespace BLL
             hoaDonDAL = new HoaDonDAL();
         }
 
-        public IQueryable<dynamic> LayHoaDonHienThi()
-        {
-            return hoaDonDAL.GetHoaDonForGridView();
-        }
-        public IQueryable<dynamic> LayHoaDonLoc(string maBan, string maNhanVien, bool? datCoc, DateTime? ngayChoi)
-        {
-            return hoaDonDAL.GetHoaDonFiltered(maBan, maNhanVien, datCoc, ngayChoi);
-        }
-        public IQueryable<dynamic> LayDanhSachNhanVien()
-        {
-            return hoaDonDAL.LayDanhSachNhanVien();
-        }
-
-        public IQueryable<dynamic> LayDanhSachBan()
-        {
-            return hoaDonDAL.LayDanhSachBan();
-        }
+       
         public bool XoaHoaDon(int maHDBH)
         {
             return hoaDonDAL.XoaHoaDon(maHDBH);
