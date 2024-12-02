@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class DanhMucManHinhDAL
+    public class DanhMucManHinhDAL_Quang
     {
         QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<DanhMucManHinh> LayDanhSachManHinh()

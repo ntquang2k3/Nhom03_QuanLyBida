@@ -15,7 +15,7 @@ namespace GUI
     {
         List<NHANVIEN> lstNhanVien = new List<NHANVIEN>();
         List<QL_NhomNguoiDung> lstNhomNguoiDung = new List<QL_NhomNguoiDung>();
-        NhomNguoiDungBLL nhomNguoiDungBLL = new NhomNguoiDungBLL();
+        NhomNguoiDungBLL_Quang nhomNguoiDungBLL = new NhomNguoiDungBLL_Quang();
         public frmNhanVien_NhomNguoiDung()
         {
             InitializeComponent();
@@ -27,7 +27,7 @@ namespace GUI
         private void FrmNhanVien_NhomNguoiDung_Load(object sender, EventArgs e)
         {
             //Load danh sách nhân viên lên grid view nhân viên
-            NhanVienBLL nhanVienBLL = new NhanVienBLL();
+            NhanVienBLL_Quang nhanVienBLL = new NhanVienBLL_Quang();
             lstNhanVien = nhanVienBLL.LayDanhSachNhanVien();
             if (lstNhanVien.Count > 0 && lstNhanVien !=null)
             {
@@ -59,7 +59,7 @@ namespace GUI
         private void LoadNguoiDungChuaCoLenCombobox()
         {
             //Loadanh sách nhóm người dùng chưa có của txtMaNV lên combobox
-            lstNhomNguoiDung = new NhomNguoiDungBLL().LayDanhSachNhomNguoiDungChuaCoTheoMaNV(txtMaNV.Text);
+            lstNhomNguoiDung = new NhomNguoiDungBLL_Quang().LayDanhSachNhomNguoiDungChuaCoTheoMaNV(txtMaNV.Text);
             if (lstNhomNguoiDung.Count > 0 && lstNhomNguoiDung != null)
             {
                 cbbDanhSachNhomNguoiDung.DataSource = lstNhomNguoiDung;

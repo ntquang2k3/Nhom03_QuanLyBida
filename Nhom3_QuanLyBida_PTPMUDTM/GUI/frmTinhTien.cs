@@ -23,9 +23,9 @@ namespace GUI
 {
     public partial class frmTinhTien : Form
     {
-        DB_BLL bll = new DB_BLL();
-        LoaiKhachHangBLL lkhBLL = new LoaiKhachHangBLL();
-        KhachHangBLL khBLL = new KhachHangBLL();
+        DB_BLL_Quang bll = new DB_BLL_Quang();
+        LoaiKhachHangBLL_Quang lkhBLL = new LoaiKhachHangBLL_Quang();
+        KhachHangBLL_Quang khBLL = new KhachHangBLL_Quang();
         public int maHDBH { get; set; }
         private double tongTien;
         private double tienThanhToan;
@@ -110,8 +110,8 @@ namespace GUI
         private void XuatHoaDonExcel()
         {
             //HOADON hdreport = bll.LayMotHoaDon(maHDBH);
-            HoaDonBLL hdbll = new HoaDonBLL();
-            List<HoaDonReport> dsCTHoaDonReport = hdbll.LayChiTietHoaDonReport(maHDBH);
+            HoaDonBLL_Quang hdbll = new HoaDonBLL_Quang();
+            List<HoaDonReport_Quang> dsCTHoaDonReport = hdbll.LayChiTietHoaDonReport(maHDBH);
             //Create replacer
             Dictionary<string, string> replacer = new Dictionary<string, string>();
             replacer.Add("%MaHoaDon", lblMaHoaDon.Text);

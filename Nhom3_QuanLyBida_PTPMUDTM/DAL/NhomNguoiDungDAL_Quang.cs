@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class NhomNguoiDungDAL
+    public class NhomNguoiDungDAL_Quang
     {
         QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<QL_NhomNguoiDung> LayDanhSachNhomNguoiDung()

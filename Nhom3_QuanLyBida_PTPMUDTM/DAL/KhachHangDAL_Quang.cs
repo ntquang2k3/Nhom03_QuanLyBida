@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using DTO;
 namespace DAL
 {
-    public class KhachHangDAL
+    public class KhachHangDAL_Quang
     {
         private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<KHACHHANG> GetListKhachHang()

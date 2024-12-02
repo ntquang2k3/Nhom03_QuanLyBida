@@ -13,7 +13,7 @@ namespace GUI
 {
     public partial class frmDoiMatKhau : Form
     {
-        NhanVienBLL nhanVienBLL = new NhanVienBLL();
+        NhanVienBLL_Quang nhanVienBLL = new NhanVienBLL_Quang();
         public frmDoiMatKhau()
         {
             InitializeComponent();

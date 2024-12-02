@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 using DTO;
 namespace DAL
 {
-    public class HoaDonDAL
+    public class HoaDonDAL_Quang
     {
         private QuanLyBidaDataContext dbContext;
 
-        public HoaDonDAL()
+        public HoaDonDAL_Quang()
         {
             dbContext = new QuanLyBidaDataContext();
         }
@@ -122,13 +122,13 @@ namespace DAL
                 return false;
             }
         }
-        public List<ChiTietHoaDonDTO> GetChiTietHoaDon(int maHDBH)
+        public List<ChiTietHoaDonDTO_Quang> GetChiTietHoaDon(int maHDBH)
         {
 
             var query = (from ct in dbContext.CHITIETHOADONs
                          join hh in dbContext.HANGHOAs on ct.MaHH equals hh.MaHH
                          where ct.MaHDBH == maHDBH
-                         select new ChiTietHoaDonDTO
+                         select new ChiTietHoaDonDTO_Quang
                          {
                              ID = ct.MaHDBH,
                              TenDichVu = hh.TenHH,
@@ -140,13 +140,13 @@ namespace DAL
             return query;
         }
 
-        public List<HoaDonReport> LayChiTietHoaDonReport(int maHDBH)
+        public List<HoaDonReport_Quang> LayChiTietHoaDonReport(int maHDBH)
         {
-            List<HoaDonReport> lst = new List<HoaDonReport> ();
+            List<HoaDonReport_Quang> lst = new List<HoaDonReport_Quang> ();
             var query = (from ct in dbContext.CHITIETHOADONs
                          join hh in dbContext.HANGHOAs on ct.MaHH equals hh.MaHH
                          where ct.MaHDBH == maHDBH
-                         select new ChiTietHoaDonDTO
+                         select new ChiTietHoaDonDTO_Quang
                          {
                              ID = ct.MaHDBH,
                              TenDichVu = hh.TenHH,
@@ -157,7 +157,7 @@ namespace DAL
             int i = 1;
             foreach (var monAn in query)
             {
-                HoaDonReport pbc = new HoaDonReport
+                HoaDonReport_Quang pbc = new HoaDonReport_Quang
                 {
                     STT = i.ToString(),
                     TENMONAN = monAn.TenDichVu.ToString(),

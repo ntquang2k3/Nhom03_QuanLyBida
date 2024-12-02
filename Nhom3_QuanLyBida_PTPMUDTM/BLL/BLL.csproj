@@ -45,13 +45,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DanhMucManHinhBLL.cs" />
-    <Compile Include="DB_BLL.cs" />
-    <Compile Include="HoaDonBLL.cs" />
-    <Compile Include="KhachHangBLL.cs" />
-    <Compile Include="LoaiKhachHangBLL.cs" />
-    <Compile Include="NhanVienBLL.cs" />
-    <Compile Include="NhomNguoiDungBLL.cs" />
+    <Compile Include="DanhMucManHinhBLL_Quang.cs" />
+    <Compile Include="DB_BLL_Quang.cs" />
+    <Compile Include="HoaDonBLL_Quang.cs" />
+    <Compile Include="KhachHangBLL_Quang.cs" />
+    <Compile Include="LoaiKhachHangBLL_Quang.cs" />
+    <Compile Include="NhanVienBLL_Quang.cs" />
+    <Compile Include="NhomNguoiDungBLL_Quang.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

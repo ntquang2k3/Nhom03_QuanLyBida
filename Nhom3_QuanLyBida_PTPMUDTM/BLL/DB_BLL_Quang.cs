@@ -8,9 +8,9 @@ using DAL;
 using DTO;
 namespace BLL
 {
-    public class DB_BLL
+    public class DB_BLL_Quang
     {
-        DB_DAL dal = new DB_DAL();
+        DB_DAL_Quang dal = new DB_DAL_Quang();
 
         public DataTable LayDanhSachLoaiBan()
         {

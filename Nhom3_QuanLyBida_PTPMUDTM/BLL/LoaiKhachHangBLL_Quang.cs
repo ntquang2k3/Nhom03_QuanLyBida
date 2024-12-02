@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class LoaiKhachHangBLL
+    public class LoaiKhachHangBLL_Quang
     {
-        LoaiKhachHangDAL loaiKhachHangDAL = new LoaiKhachHangDAL();
-        public LoaiKhachHangBLL() 
+        LoaiKhachHangDAL_Quang loaiKhachHangDAL = new LoaiKhachHangDAL_Quang();
+        public LoaiKhachHangBLL_Quang() 
         {
-            loaiKhachHangDAL = new LoaiKhachHangDAL();
+            loaiKhachHangDAL = new LoaiKhachHangDAL_Quang();
         }
         public List<LOAIKH> LayDanhSachLoaiKhachHang()
         {

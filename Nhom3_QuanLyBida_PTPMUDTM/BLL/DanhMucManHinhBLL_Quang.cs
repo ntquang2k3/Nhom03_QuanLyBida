@@ -7,9 +7,9 @@ using DTO;
 using DAL;
 namespace BLL
 {
-    public class DanhMucManHinhBLL
+    public class DanhMucManHinhBLL_Quang
     {
-        DanhMucManHinhDAL dal = new DanhMucManHinhDAL();
+        DanhMucManHinhDAL_Quang dal = new DanhMucManHinhDAL_Quang();
         public List<DanhMucManHinh> LayDanhSachManHinh()
         {
             return dal.LayDanhSachManHinh();

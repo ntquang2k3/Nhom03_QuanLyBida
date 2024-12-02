@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 using DTO;
 namespace DAL
 {
-    public class DB_DAL
+    public class DB_DAL_Quang
     {
         QuanLyBidaDataContext qlbd = new QuanLyBidaDataContext();
-        public DB_DAL()
+        public DB_DAL_Quang()
         {
         }
         public DataTable LayDanhSachLoaiBan()

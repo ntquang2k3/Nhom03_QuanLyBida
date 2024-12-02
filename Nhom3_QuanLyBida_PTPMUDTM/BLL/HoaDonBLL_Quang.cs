@@ -7,13 +7,13 @@ using DAL;
 using DTO;
 namespace BLL
 {
-    public class HoaDonBLL
+    public class HoaDonBLL_Quang
     {
-        private HoaDonDAL hoaDonDAL;
+        private HoaDonDAL_Quang hoaDonDAL;
 
-        public HoaDonBLL()
+        public HoaDonBLL_Quang()
         {
-            hoaDonDAL = new HoaDonDAL();
+            hoaDonDAL = new HoaDonDAL_Quang();
         }
 
         public IQueryable<dynamic> LayHoaDonHienThi()
@@ -37,11 +37,11 @@ namespace BLL
         {
             return hoaDonDAL.XoaHoaDon(maHDBH);
         }
-        public List<ChiTietHoaDonDTO> LayChiTietHoaDon(int maHDBH)
+        public List<ChiTietHoaDonDTO_Quang> LayChiTietHoaDon(int maHDBH)
         {
             return hoaDonDAL.GetChiTietHoaDon(maHDBH);
         }
-        public List<HoaDonReport> LayChiTietHoaDonReport(int maHDBH)
+        public List<HoaDonReport_Quang> LayChiTietHoaDonReport(int maHDBH)
         {
             return hoaDonDAL.LayChiTietHoaDonReport(maHDBH) ;
         }

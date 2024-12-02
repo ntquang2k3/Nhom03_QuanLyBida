@@ -13,8 +13,8 @@ namespace GUI
 {
     public partial class frmNhomNguoiDung_ManHinh : Form
     {
-        DanhMucManHinhBLL dmmhBLL = new DanhMucManHinhBLL();
-        NhomNguoiDungBLL nhomNguoiDungBLL = new NhomNguoiDungBLL();
+        DanhMucManHinhBLL_Quang dmmhBLL = new DanhMucManHinhBLL_Quang();
+        NhomNguoiDungBLL_Quang nhomNguoiDungBLL = new NhomNguoiDungBLL_Quang();
         List<DanhMucManHinh> lstDMMH = new List<DanhMucManHinh>();
         List<QL_NhomNguoiDung> lstNhomNguoiDung = new List<QL_NhomNguoiDung>();
         public frmNhomNguoiDung_ManHinh()

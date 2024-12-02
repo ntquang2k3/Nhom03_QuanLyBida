@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class ChiTietHoaDonDTO
+    public class ChiTietHoaDonDTO_Quang
     {
         public int ID { get; set; }           // ID của hóa đơn
         public string TenDichVu { get; set; }  // Tên dịch vụ từ bảng HANGHOA

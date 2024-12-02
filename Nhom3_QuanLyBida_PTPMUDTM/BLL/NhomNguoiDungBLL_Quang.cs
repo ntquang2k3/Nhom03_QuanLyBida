@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using DAL;
 namespace BLL
 {
-    public class NhomNguoiDungBLL
+    public class NhomNguoiDungBLL_Quang
     {
-        NhomNguoiDungDAL nhomNguoiDungDAL = new NhomNguoiDungDAL();
+        NhomNguoiDungDAL_Quang nhomNguoiDungDAL = new NhomNguoiDungDAL_Quang();
         public List<QL_NhomNguoiDung> LayDanhSachNhomNguoiDung()
         {
             return nhomNguoiDungDAL.LayDanhSachNhomNguoiDung();

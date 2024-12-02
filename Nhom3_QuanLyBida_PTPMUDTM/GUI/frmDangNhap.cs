@@ -14,7 +14,7 @@ namespace GUI
 {
     public partial class frmDangNhap : Form
     {
-        DB_BLL bll = new DB_BLL();
+        DB_BLL_Quang bll = new DB_BLL_Quang();
         bool hienMatKhau = false;
         public frmDangNhap()
         {

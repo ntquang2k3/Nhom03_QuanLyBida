@@ -15,7 +15,7 @@ namespace GUI
 {
     public partial class frmMain : DevExpress.XtraBars.FluentDesignSystem.FluentDesignForm
     {
-        DanhMucManHinhBLL danhMucManHinhBLL = new DanhMucManHinhBLL();
+        DanhMucManHinhBLL_Quang danhMucManHinhBLL = new DanhMucManHinhBLL_Quang();
         public string MaNV {  get; set; }
         public frmMain()
         {
@@ -106,7 +106,7 @@ namespace GUI
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            DB_BLL bLL = new DB_BLL();
+            DB_BLL_Quang bLL = new DB_BLL_Quang();
             NHANVIEN nv = bLL.LayMotNhanVien(MaNV);
             //Load nhân viên lên txtTenNhanVien
             txtTenNhanVien.Caption = nv.TenNV;

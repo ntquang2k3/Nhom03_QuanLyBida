@@ -12,7 +12,7 @@ namespace GUI
 {
     public partial class frmChuyenBan : Form
     {
-        DB_BLL bll = new DB_BLL();
+        DB_BLL_Quang bll = new DB_BLL_Quang();
         public string MaChuyenDen { get; set; }
         public int MaLoaiBan { get; set; }
         public string MaKhuVuc { get; set; }

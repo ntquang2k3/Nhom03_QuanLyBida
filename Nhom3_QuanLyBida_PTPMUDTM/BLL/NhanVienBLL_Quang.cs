@@ -8,12 +8,12 @@ using DAL;
 
 namespace BLL
 {
-    public class NhanVienBLL
+    public class NhanVienBLL_Quang
     {
-        private NhanVienDAL nhanVienDAL;
-        public NhanVienBLL()
+        private NhanVienDAL_Quang nhanVienDAL;
+        public NhanVienBLL_Quang()
         {
-           nhanVienDAL = new NhanVienDAL();
+           nhanVienDAL = new NhanVienDAL_Quang();
         }
         public List<NHANVIEN> LayDanhSachNhanVien()
         {

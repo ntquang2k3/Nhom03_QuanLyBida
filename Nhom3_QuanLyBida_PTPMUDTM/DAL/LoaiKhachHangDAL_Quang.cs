@@ -7,7 +7,7 @@ using DTO;
 
 namespace DAL
 {
-    public class LoaiKhachHangDAL
+    public class LoaiKhachHangDAL_Quang
     {
         private QuanLyBidaDataContext db = new QuanLyBidaDataContext();
         public List<LOAIKH> GetListLoaiKhachHang()

@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using DTO;
 namespace BLL
 {
-    public class KhachHangBLL
+    public class KhachHangBLL_Quang
     {
-        private KhachHangDAL khachHangDAL;
-        public KhachHangBLL()
+        private KhachHangDAL_Quang khachHangDAL;
+        public KhachHangBLL_Quang()
         {
-            khachHangDAL = new KhachHangDAL();
+            khachHangDAL = new KhachHangDAL_Quang();
         }
         public List<KHACHHANG> LayDanhSachKhachHang()
         {

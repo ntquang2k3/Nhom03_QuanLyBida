@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class HoaDonReport
+    public class HoaDonReport_Quang
     {
         public string STT { get; set; }
         public string MAMONAN { get; set; }
@@ -14,7 +14,7 @@ namespace DTO
         public int SOLUONG { get; set; }
         public double DONGIA { get; set; }
         public double THANHTIEN { get; set; }
-        public HoaDonReport()
+        public HoaDonReport_Quang()
         {
 
         }
