@@ -51,6 +51,11 @@ namespace GUI
             //DataTable dt = db.getDataTable(cauTruyVan);
             if (nv != null) // Có đăng nhập được
             {
+                if (nv.HoatDong != 1)
+                {
+                    MessageBox.Show("Tài khoản đã bị khóa !!!. Vui lòng liên hệ chủ quản lý");
+                    return;
+                }
                 frmMain giaodien = new frmMain();
                 giaodien.MaNV = nv.MaNV;
                 giaodien.Show();
